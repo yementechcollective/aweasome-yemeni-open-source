@@ -6,7 +6,7 @@
 
 **A curated directory of open-source projects created and maintained by Yemeni developers, designers, researchers, and technologists.**
 
-[![Projects](https://img.shields.io/badge/projects-235-1f6feb?style=flat-square)](#projects)
+[![Projects](https://img.shields.io/badge/projects-236-1f6feb?style=flat-square)](#projects)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![Yemen Tech Collective](https://img.shields.io/badge/by-Yemen%20Tech%20Collective-111827?style=flat-square)](https://yementc.org)
@@ -40,7 +40,7 @@ developers, designers, researchers, and technology professionals to connect, sha
 ## About
 
 **Yemeni Open Source** is a community-maintained directory of open-source software created or substantially maintained by
-Yemeni technologists. It brings together **235 projects** in one place: Laravel and PHP packages, Flutter and Dart libraries,
+Yemeni technologists. It brings together **236 projects** in one place: Laravel and PHP packages, Flutter and Dart libraries,
 Python and AI projects, JavaScript and TypeScript tools, C# and Go utilities, Arabic and RTL support, payment-gateway
 integrations for Yemen and the Arab world, developer tooling, and technical learning resources.
 
@@ -59,7 +59,7 @@ The directory exists to:
 <!-- YEMEN_OPEN_SOURCE_CATALOG:START -->
 ## Projects
 
-This directory lists **235 projects** in a single collection. The first 17 entries are curated highlights; the rest are
+This directory lists **236 projects** in a single collection. The first 17 entries are curated highlights; the rest are
 listed alphabetically. Every entry links to the project's **original repository**, so credit stays with its author, and
 descriptions are taken from those repositories.
 
@@ -305,6 +305,7 @@ descriptions are taken from those repositories.
 | 233 | [Zatca-wordpress-plugin](https://github.com/Husam-Almiyah/Zatca-wordpress-plugin) | PHP | A comprehensive WordPress plugin that enables Saudi Arabian businesses to comply with ZATCA (Zakat, Tax and Customs Authority) e-invoicing requirements through WooCommerce integration. |
 | 234 | [zed-alpinejs-snippets](https://github.com/A909M/zed-alpinejs-snippets) | — | Alpine.js Snippets for Zed editor |
 | 235 | [react-assets-generator](https://github.com/mukarrammahmoud/react-assets-generator) | React | Production-ready React Assets Code Generator - Type-safe asset imports for React projects. |
+| 236 | [Thekr App](https://github.com/zaidmahdidev/thekr-app) | Dart | Flutter Islamic app featuring the Qur'an, daily Athkar, Hisn Al-Muslim, Qiblah direction, Names of Allah, and Al-Arba’een Al-Nawawiya. |
 <!-- YEMEN_OPEN_SOURCE_CATALOG:END -->
 
 ## Contributing
