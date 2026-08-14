@@ -305,6 +305,7 @@ descriptions are taken from those repositories.
 | 233 | [Zatca-wordpress-plugin](https://github.com/Husam-Almiyah/Zatca-wordpress-plugin) | PHP | A comprehensive WordPress plugin that enables Saudi Arabian businesses to comply with ZATCA (Zakat, Tax and Customs Authority) e-invoicing requirements through WooCommerce integration. |
 | 234 | [zed-alpinejs-snippets](https://github.com/A909M/zed-alpinejs-snippets) | — | Alpine.js Snippets for Zed editor |
 | 235 | [react-assets-generator](https://github.com/mukarrammahmoud/react-assets-generator) | React | Production-ready React Assets Code Generator - Type-safe asset imports for React projects. |
+| 236 | [RSA-Toolkit](https://github.com/ahmedsalah-tech/RSA-Toolkit) | Next.js • FastAPI | A full-stack RSA cryptography workbench — generate keys, encrypt, decrypt, sign, and verify, all from the browser. |
 <!-- YEMEN_OPEN_SOURCE_CATALOG:END -->
 
 ## Contributing
