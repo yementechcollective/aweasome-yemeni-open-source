@@ -310,6 +310,7 @@ descriptions are taken from those repositories.
 | 238 | [magicar](https://github.com/amtcode/magicar) | Unity | Arabic support for Unity projects with multiline support |
 | 239 | [RSA-Toolkit](https://github.com/ahmedsalah-tech/RSA-Toolkit) | Next.js • FastAPI | A full-stack RSA cryptography workbench — generate keys, encrypt, decrypt, sign, and verify, all from the browser. |
 | 240 | [Yemen Offers](https://github.com/yemenoffers/frontend) | Flutter | A Flutter marketplace app connecting consumers with deals and offers across Yemen. |
+| 241 | [Menha](https://github.com/Emad-Almagedy/Menha) | Flutter · Dart · Education | A Flutter app for tracking academic scholarship applications across multiple years with Arabic and English support. |
 <!-- YEMEN_OPEN_SOURCE_CATALOG:END -->
 
 ## Contributing
