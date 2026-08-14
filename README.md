@@ -311,6 +311,7 @@ descriptions are taken from those repositories.
 | 239 | [RSA-Toolkit](https://github.com/ahmedsalah-tech/RSA-Toolkit) | Next.js • FastAPI | A full-stack RSA cryptography workbench — generate keys, encrypt, decrypt, sign, and verify, all from the browser. |
 | 240 | [Yemen Offers](https://github.com/yemenoffers/frontend) | Flutter | A Flutter marketplace app connecting consumers with deals and offers across Yemen. |
 | 241 | [Menha](https://github.com/Emad-Almagedy/Menha) | Flutter · Dart · Education | A Flutter app for tracking academic scholarship applications across multiple years with Arabic and English support. |
+| 242 | [Nassila](https://github.com/jamalesam93/Nassila) | Electron · TypeScript | An offline Electron desktop app that validates, corrects, and deduplicates bibliographies against Crossref, PubMed, and OpenAlex. |
 <!-- YEMEN_OPEN_SOURCE_CATALOG:END -->
 
 ## Contributing
