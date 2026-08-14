@@ -6,7 +6,7 @@
 
 **A curated directory of open-source projects created and maintained by Yemeni developers, designers, researchers, and technologists.**
 
-[![Projects](https://img.shields.io/badge/projects-239-1f6feb?style=flat-square)](#projects)
+[![Projects](https://img.shields.io/badge/projects-240-1f6feb?style=flat-square)](#projects)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![Yemen Tech Collective](https://img.shields.io/badge/by-Yemen%20Tech%20Collective-111827?style=flat-square)](https://yementc.org)
@@ -40,7 +40,7 @@ developers, designers, researchers, and technology professionals to connect, sha
 ## About
 
 **Yemeni Open Source** is a community-maintained directory of open-source software created or substantially maintained by
-Yemeni technologists. It brings together **239 projects** in one place: Laravel and PHP packages, Flutter and Dart libraries,
+Yemeni technologists. It brings together **240 projects** in one place: Laravel and PHP packages, Flutter and Dart libraries,
 Python and AI projects, JavaScript and TypeScript tools, C# and Go utilities, Arabic and RTL support, payment-gateway
 integrations for Yemen and the Arab world, developer tooling, and technical learning resources.
 
@@ -59,7 +59,7 @@ The directory exists to:
 <!-- YEMEN_OPEN_SOURCE_CATALOG:START -->
 ## Projects
 
-This directory lists **239 projects** in a single collection. The first 17 entries are curated highlights; the rest are
+This directory lists **240 projects** in a single collection. The first 17 entries are curated highlights; the rest are
 listed alphabetically. Every entry links to the project's **original repository**, so credit stays with its author, and
 descriptions are taken from those repositories.
 
@@ -309,6 +309,7 @@ descriptions are taken from those repositories.
 | 237 | [react-three-utils](https://github.com/abdulrahmanal-tayeb/react-three-utils) | React | Utilities for 3d website development. |
 | 238 | [magicar](https://github.com/amtcode/magicar) | Unity | Arabic support for Unity projects with multiline support |
 | 239 | [RSA-Toolkit](https://github.com/ahmedsalah-tech/RSA-Toolkit) | Next.js • FastAPI | A full-stack RSA cryptography workbench — generate keys, encrypt, decrypt, sign, and verify, all from the browser. |
+| 240 | [Yemen Offers](https://github.com/yemenoffers/frontend) | Flutter | A Flutter marketplace app connecting consumers with deals and offers across Yemen. |
 <!-- YEMEN_OPEN_SOURCE_CATALOG:END -->
 
 ## Contributing
