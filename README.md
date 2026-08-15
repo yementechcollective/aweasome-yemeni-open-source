@@ -40,7 +40,7 @@ developers, designers, researchers, and technology professionals to connect, sha
 ## About
 
 **Yemeni Open Source** is a community-maintained directory of open-source software created or substantially maintained by
-Yemeni technologists. It brings together **240 projects** in one place: Laravel and PHP packages, Flutter and Dart libraries,
+Yemeni technologists. It brings together **242 projects** in one place: Laravel and PHP packages, Flutter and Dart libraries,
 Python and AI projects, JavaScript and TypeScript tools, C# and Go utilities, Arabic and RTL support, payment-gateway
 integrations for Yemen and the Arab world, developer tooling, and technical learning resources.
 
