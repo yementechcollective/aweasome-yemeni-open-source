@@ -59,7 +59,7 @@ The directory exists to:
 <!-- YEMEN_OPEN_SOURCE_CATALOG:START -->
 ## Projects
 
-This directory lists **240 projects** in a single collection. The first 17 entries are curated highlights; the rest are
+This directory lists **242 projects** in a single collection. The first 17 entries are curated highlights; the rest are
 listed alphabetically. Every entry links to the project's **original repository**, so credit stays with its author, and
 descriptions are taken from those repositories.
 
