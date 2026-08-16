@@ -3,8 +3,13 @@
 is shared on social media, in Slack, or in a chat that unfurls links.
 
 GitHub asks for a 1280x640 image and crops nothing. Upload the result under
-Settings -> General -> Social preview; re-run this after a big milestone so the
-project count on the card stays honest.
+Settings -> General -> Social preview.
+
+That upload is manual -- GitHub exposes no API for it -- so the card says
+nothing that goes out of date. It names what the directory covers rather than
+how many entries it holds, and the live count stays where it can be regenerated:
+the README badge. Pass --with-counts if you want a milestone card instead, and
+remember it is a snapshot from the day you made it.
 
     python3 -m pip install pillow pyyaml
     python3 scripts/social_preview.py
@@ -79,15 +84,34 @@ def main() -> int:
               font=font(regular, 38), fill=MUTED)
     draw.text((left, 296), "built by Yemeni developers", font=font(regular, 38), fill=MUTED)
 
-    # The headline numbers, which are what a card is actually read for.
-    stats = ((f"{len(projects)}", "projects"), (f"{len(categories)}", "categories"),
-             (f"{sum(1 for p in projects if p.get('featured'))}", "featured"))
-    x = left
-    for value, label in stats:
-        draw.text((x, 396), value, font=font(bold, 64), fill=ACCENT)
-        draw.text((x, 470), label.upper(), font=font(regular, 26), fill=MUTED)
-        x += max(draw.textlength(value, font=font(bold, 64)),
-                 draw.textlength(label.upper(), font=font(regular, 26))) + 88
+    if "--with-counts" in sys.argv:
+        # A milestone card: accurate the day it is made, and a snapshot after.
+        stats = ((f"{len(projects)}", "projects"), (f"{len(categories)}", "categories"),
+                 (f"{sum(1 for p in projects if p.get('featured'))}", "featured"))
+        x = left
+        for value, label in stats:
+            draw.text((x, 396), value, font=font(bold, 64), fill=ACCENT)
+            draw.text((x, 470), label.upper(), font=font(regular, 26), fill=MUTED)
+            x += max(draw.textlength(value, font=font(bold, 64)),
+                     draw.textlength(label.upper(), font=font(regular, 26))) + 88
+    else:
+        # What the directory covers, which does not go stale between uploads.
+        # Short labels so the row of chips always fits above the footer rule.
+        SHORT = {"ai-ml": "AI & ML", "web": "Web", "mobile": "Mobile",
+                 "payments": "Payments", "arabic": "Arabic & RTL",
+                 "devtools": "Dev Tools"}
+        chips = [SHORT.get(c["slug"], c["title"]) for c in categories
+                 if c["slug"] in SHORT]
+        x, y = left, 404
+        chip_font = font(regular, 27)
+        for label in chips:
+            width = draw.textlength(label, font=chip_font) + 44
+            if x + width > WIDTH - 384:          # keep clear of the flag
+                x, y = left, y + 62
+            draw.rounded_rectangle([x, y, x + width, y + 50], radius=25,
+                                   fill="#161b22", outline="#30363d", width=2)
+            draw.text((x + 22, y + 11), label, font=chip_font, fill=TEXT)
+            x += width + 16
 
     draw.line([(left, 552), (WIDTH - left, 552)], fill="#21262d", width=2)
     draw.text((left, 578), "Yemen Tech Collective · yementc.org",
