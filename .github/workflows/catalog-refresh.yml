@@ -1,0 +1,56 @@
+name: Refresh catalog metadata
+
+# Once a week, re-read every listed repository from the GitHub API and record
+# its star count, archived flag, and license in data/projects.yml. Archived
+# repositories are marked in the README, and anything that no longer resolves is
+# reported in the job log for a maintainer to look at.
+#
+# The result is opened as a pull request rather than pushed to main: refreshed
+# metadata is a claim about other people's repositories, so a human sees it
+# before it is published.
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    name: refresh
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install PyYAML
+        run: python3 -m pip install --quiet pyyaml
+
+      - name: Re-read the repository metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/catalog.py refresh --snapshot "$(date -u '+%-d %B %Y')"
+          python3 scripts/catalog.py fix
+
+      - name: Open a pull request with the result
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet; then
+            echo "Nothing changed since the last refresh."
+            exit 0
+          fi
+          branch="catalog-refresh/$(date -u '+%Y-%m-%d')"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add README.md data/projects.yml data/meta.yml
+          git commit -m "Refresh the catalog metadata snapshot"
+          git push --force origin "$branch"
+          gh pr create --fill --head "$branch" \
+            --title "Refresh the catalog metadata snapshot" \
+            --body "Automated weekly refresh of star counts, archived flags, and licenses. Check the job log for repositories that no longer resolve." \
+            || echo "A pull request for this branch is already open."
