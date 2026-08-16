@@ -6,7 +6,7 @@
 
 **A curated directory of open-source projects created and maintained by Yemeni developers, designers, researchers, and technologists.**
 
-[![Projects](https://img.shields.io/badge/projects-243-1f6feb?style=flat-square)](#projects)
+[![Projects](https://img.shields.io/badge/projects-244-1f6feb?style=flat-square)](#projects)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![Yemen Tech Collective](https://img.shields.io/badge/by-Yemen%20Tech%20Collective-111827?style=flat-square)](https://yementc.org)
@@ -40,7 +40,7 @@ developers, designers, researchers, and technology professionals to connect, sha
 ## About
 
 **Yemeni Open Source** is a community-maintained directory of open-source software created or substantially maintained by
-Yemeni technologists. It brings together **243 projects** in one place: Laravel and PHP packages, Flutter and Dart libraries,
+Yemeni technologists. It brings together **244 projects** in one place: Laravel and PHP packages, Flutter and Dart libraries,
 Python and AI projects, JavaScript and TypeScript tools, C# and Go utilities, Arabic and RTL support, payment-gateway
 integrations for Yemen and the Arab world, developer tooling, and technical learning resources.
 
@@ -59,7 +59,7 @@ The directory exists to:
 <!-- YEMEN_OPEN_SOURCE_CATALOG:START -->
 ## Projects
 
-This directory lists **243 projects** in a single collection. The first 17 entries are curated highlights; the rest are
+This directory lists **244 projects** in a single collection. The first 17 entries are curated highlights; the rest are
 listed alphabetically. Every entry links to the project's **original repository**, so credit stays with its author, and
 descriptions are taken from those repositories.
 
@@ -313,6 +313,7 @@ descriptions are taken from those repositories.
 | 241 | [Menha](https://github.com/Emad-Almagedy/Menha) | Flutter · Dart · Education | A Flutter app for tracking academic scholarship applications across multiple years with Arabic and English support. |
 | 242 | [Nassila](https://github.com/jamalesam93/Nassila) | Electron · TypeScript | An offline Electron desktop app that validates, corrects, and deduplicates bibliographies against Crossref, PubMed, and OpenAlex. |
 | 243 | [WaApi](https://github.com/its4nas/WaApiFrappe) | Frappe . ERPNext | A cost-effective, native WhatsApp integration for Frappe and ERPNext with WaApi. |
+| 244 | [retransify](https://github.com/Husam-Abdulraheem/retransify) | AI · React Native · CLI | CLI tool that autonomously converts React web projects into production-ready React Native (Expo) apps using AI and LangGraph agentic workflows. |
 <!-- YEMEN_OPEN_SOURCE_CATALOG:END -->
 
 ## Contributing
