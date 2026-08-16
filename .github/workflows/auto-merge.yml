@@ -40,9 +40,9 @@ jobs:
           files=$(gh api "repos/${{ github.repository }}/pulls/${PR}/files" \
             --paginate --jq '.[].filename')
           echo "Changed files:"; echo "$files"
-          unexpected=$(echo "$files" | grep -v '^README\.md$' || true)
+          unexpected=$(echo "$files" | grep -vE '^(README\.md|data/projects\.yml)$' || true)
           if [ -n "$unexpected" ]; then
-            echo "::error::This pull request changes more than README.md, so it will not auto-merge. Review and merge it by hand."
+            echo "::error::This pull request changes more than the catalog data and its rendered README, so it will not auto-merge. Review and merge it by hand."
             exit 1
           fi
 

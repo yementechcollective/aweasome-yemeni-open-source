@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Add a project by pull request
+    url: https://github.com/yementechcollective/aweasome-yemeni-open-source/blob/main/CONTRIBUTING.md#how-to-submit
+    about: The fastest route — add one block to data/projects.yml and open a pull request.
+  - name: Report something sensitive
+    url: https://github.com/yementechcollective/aweasome-yemeni-open-source/security/advisories/new
+    about: Malicious entries, impersonation, or a problem with the automation. Reported privately.
+  - name: Yemen Tech Collective
+    url: https://yementc.org
+    about: The community behind this directory.

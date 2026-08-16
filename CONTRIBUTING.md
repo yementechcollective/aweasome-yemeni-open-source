@@ -31,7 +31,7 @@ You do not need to add a project to contribute. All of the following are welcome
 - **Add a project** created or substantially maintained by a Yemeni contributor.
 - **Improve a description** so it is clearer, more factual, or less promotional.
 - **Fix a broken link** or update a repository that has moved.
-- **Correct metadata** — a wrong category, language, or `Source` / `Fork` type.
+- **Correct metadata** — a wrong category, `tech` value, or `Source` / `Fork` type.
 - **Translate or improve** the Arabic and English content.
 - **Improve the structure** of the directory itself.
 
@@ -54,19 +54,26 @@ A submitted project should:
 ### How to Submit
 
 1. **Fork** this repository.
-2. **Add your row** to the end of the projects table in [`README.md`](README.md#projects), following the [entry format](#entry-format).
+2. **Add your entry** to the end of [`data/projects.yml`](data/projects.yml), following the [entry format](#entry-format).
 3. **Keep the description** factual, concise, and free of promotional claims.
 4. **Open a pull request** titled `Add: owner/project-name`.
 5. **Include evidence** of Yemeni creation or substantial maintenance when it is not apparent from the repository.
 
 > [!TIP]
-> **Do not worry about the index number or the project counts.** Put any number in the first column and leave the
-> totals in the badge and the text alone — automation renumbers the table and updates every count for you, and it
-> keeps your pull request up to date with `main` so it does not go stale while it waits for review.
+> **Edit only `data/projects.yml`, never `README.md`.** The project tables, the per-category counts, and the totals in
+> the badge and the text are all generated from that one file — automation regenerates the README on your pull request,
+> so there is nothing to renumber and no count to keep in sync.
 
-Each pull request is checked automatically. The checks confirm that the table is well formed and that the repository
-you linked is public, is not a fork or mirror, and has an explicit open-source license. Anything they flag is reported
-on the pull request with the line to fix.
+If you have Python available, you can generate the README yourself before pushing:
+
+```bash
+python3 -m pip install pyyaml     # once
+python3 scripts/catalog.py fix    # sorts the data and rewrites README.md
+```
+
+Each pull request is checked automatically. The checks confirm that the data file is well formed, that your entry uses a
+known category, and that the repository you linked is public, is not a fork or mirror, and has an explicit open-source
+license. Anything they flag is reported on the pull request with the line to fix.
 
 Suggested pull request details:
 
@@ -82,18 +89,31 @@ Relationship to Yemen:
 
 ### Entry Format
 
-The directory is a single table with one continuous index. Each row uses this format:
+The directory lives in [`data/projects.yml`](data/projects.yml). Add one block at the end of the file:
 
-```markdown
-| 235 | [Project Name](https://github.com/owner/project) | Category | One-sentence description. |
+```yaml
+- name: Project Name
+  url: https://github.com/owner/project
+  category: devtools
+  tech: 'Laravel · PHP'
+  description: One factual sentence about what the project does.
 ```
 
-| Column | What to put |
+| Field | What to put |
 |---|---|
-| `#` | Any number — the index is renumbered automatically when your pull request is checked. |
-| `Project` | A markdown link: the project name, linked to its **original** repository — never a fork or mirror. |
-| `Category` | A short domain label such as `AI · Laravel`, `DevOps`, or `Localization`, or simply the primary language (`PHP`, `Dart`, `Python`). Use `—` if neither applies. |
-| `Description` | One factual sentence. Escape any literal pipe character as `\|`. |
+| `name` | The project name as its maintainers write it. |
+| `url` | A link to the **original** repository — never a fork or mirror. |
+| `category` | One slug from [`data/categories.yml`](data/categories.yml), chosen by what the project is **for**. |
+| `tech` | Optional. Languages and frameworks, separated by ` · ` — `PHP`, `Flutter · Dart`, `Next.js · FastAPI`. |
+| `description` | One factual sentence in English, ending with a full stop. |
+| `featured` | Maintainers only. Curated highlights that open the directory. |
+
+Entries are sorted for you by category and then by name, so where you add the block in the file does not matter.
+
+> [!NOTE]
+> The `category` field takes a slug — `ai-ml`, `payments`, `arabic` — not a free-text label, and a slug that is not in
+> `data/categories.yml` fails the check. This is what keeps the directory browsable. If nothing fits, use `other` and
+> say so in the pull request; new categories are agreed in an issue first.
 
 ### Writing a Good Description
 
@@ -101,7 +121,8 @@ The directory is a single table with one continuous index. Each row uses this fo
 - Say **what it does**, not how great it is — no "best", "powerful", "amazing", or "revolutionary".
 - Start with a noun phrase: *"A Laravel package that …"*, *"A CLI tool for …"*.
 - Mention the **language or framework** when it helps discovery.
-- Write in **English**; the directory's project table is English-only for consistency.
+- Write in **English**; the directory's project data is English-only for consistency.
+- **End with a full stop.** Never let the description be the repository name, a bare link, or a fragment such as `js`.
 
 ## Updating or Removing an Entry
 

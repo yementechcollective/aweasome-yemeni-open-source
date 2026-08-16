@@ -1,0 +1,99 @@
+name: Suggest a project
+description: Suggest an open-source project by a Yemeni maintainer for the directory
+title: "Add: owner/project-name"
+labels: ["new-entry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Prefer to send it yourself? A pull request that adds one block to
+        [`data/projects.yml`](../blob/main/data/projects.yml) is merged faster —
+        see [How to Submit](../blob/main/CONTRIBUTING.md#how-to-submit). Use this form
+        when you would rather a maintainer add it for you.
+
+  - type: input
+    id: url
+    attributes:
+      label: Repository URL
+      description: Link to the original repository, never a fork or a mirror.
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      description: As its maintainers write it.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What the project is FOR — not what it is written in.
+      options:
+        - AI & Machine Learning
+        - Web & Backend
+        - Frontend & UI
+        - Mobile
+        - Desktop
+        - Payments & Fintech
+        - Arabic & Localization
+        - Data & Databases
+        - DevOps & Infrastructure
+        - Developer Tools
+        - Security & Cryptography
+        - Bots & Messaging
+        - Games & Graphics
+        - Learning & Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: tech
+    attributes:
+      label: Tech
+      description: Languages and frameworks, separated by ` · `.
+      placeholder: Laravel · PHP
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One factual sentence in English, under 30 words, ending with a full stop.
+      placeholder: A Laravel package that generates PDF invoices with Arabic and RTL support.
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: Open-source license
+      placeholder: MIT
+    validations:
+      required: true
+
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship to Yemen
+      description: Who the Yemeni maintainer or contributor is, with evidence if it is not obvious from the repository.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Eligibility
+      options:
+        - label: The repository is public, genuinely open source, and has an explicit license file.
+          required: true
+        - label: The link points to the original repository, not a fork or mirror.
+          required: true
+        - label: The project is created or substantially maintained by a Yemeni contributor.
+          required: true

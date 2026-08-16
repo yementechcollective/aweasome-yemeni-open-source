@@ -1,0 +1,83 @@
+name: Render catalog
+
+# Contributors edit data/projects.yml only. This job regenerates README.md from
+# that data and pushes the result back to the pull request, so nobody has to run
+# Python locally and no two pull requests ever collide over the rendered table.
+#
+# Requires the CATALOG_BOT_TOKEN secret: the default GITHUB_TOKEN cannot push to
+# a contributor's fork. Without it the job skips itself and the validate check
+# tells the contributor to run `python3 scripts/catalog.py fix` instead.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: render-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    name: render
+    if: github.event.pull_request.state == 'open' && !github.event.pull_request.draft
+    runs-on: ubuntu-latest
+    steps:
+      - name: Look for the bot token
+        id: token
+        env:
+          BOT_TOKEN: ${{ secrets.CATALOG_BOT_TOKEN }}
+        run: |
+          if [ -n "$BOT_TOKEN" ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::CATALOG_BOT_TOKEN is not set, so README.md was not regenerated automatically."
+          fi
+
+      # The tooling always comes from main, never from the pull request, so a
+      # contributor cannot change what runs here.
+      - name: Check out main
+        if: steps.token.outputs.present == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          path: main
+
+      - name: Check out the pull request branch
+        if: steps.token.outputs.present == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          token: ${{ secrets.CATALOG_BOT_TOKEN }}
+          path: pr
+          fetch-depth: 0
+
+      - name: Install PyYAML
+        if: steps.token.outputs.present == 'true'
+        run: python3 -m pip install --quiet pyyaml
+
+      - name: Sort the data and regenerate the README
+        if: steps.token.outputs.present == 'true'
+        working-directory: pr
+        run: python3 ../main/scripts/catalog.py fix --data data/projects.yml
+          --categories data/categories.yml --meta data/meta.yml --readme README.md
+
+      - name: Commit and push the result
+        if: steps.token.outputs.present == 'true'
+        working-directory: pr
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/projects.yml
+          if git diff --cached --quiet; then
+            echo "Already rendered; nothing to push."
+            exit 0
+          fi
+          git commit -m "Regenerate README.md from the catalog data"
+          git push origin "HEAD:$HEAD_REF"

@@ -1,0 +1,44 @@
+name: Report an entry problem
+description: A broken link, a moved or archived repository, a wrong category, or a description that should change
+title: "Fix: project-name"
+labels: ["entry-fix"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry
+      description: The project name as it appears in the directory.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong
+      options:
+        - The link is broken (404)
+        - The repository moved to a new owner or name
+        - The repository is archived or deprecated
+        - The category is wrong
+        - The tech is wrong or missing
+        - The description is inaccurate, promotional, or out of date
+        - The project no longer meets the eligibility criteria
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: What it should say
+      description: The corrected URL, category, tech, or description — whatever applies.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: maintainer
+    attributes:
+      label: Are you the maintainer?
+      options:
+        - label: I maintain this project. (Maintainers may request an update or removal at any time.)
+          required: false

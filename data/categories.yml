@@ -1,0 +1,68 @@
+# The controlled vocabulary for the `category` field in data/projects.yml.
+#
+# Every project belongs to exactly one category, chosen by what the project is
+# FOR, never by what it is written in -- the language belongs in `tech`. The
+# order below is the order the sections appear in README.md.
+#
+# Adding a category is a deliberate decision: a vocabulary that grows with every
+# pull request stops being a way to browse. Open an issue first.
+
+- slug: ai-ml
+  title: AI & Machine Learning
+  blurb: LLM clients and SDKs, agents, model implementations, and applied machine learning.
+
+- slug: web
+  title: Web & Backend
+  blurb: Web applications, APIs, and server-side frameworks and packages.
+
+- slug: frontend
+  title: Frontend & UI
+  blurb: Interface components, admin-panel plugins, themes, and starter templates.
+
+- slug: mobile
+  title: Mobile
+  blurb: Mobile applications and the packages that support them.
+
+- slug: desktop
+  title: Desktop
+  blurb: Applications that run on the desktop.
+
+- slug: payments
+  title: Payments & Fintech
+  blurb: Payment-gateway integrations, wallets, invoicing, tax, and zakat.
+
+- slug: arabic
+  title: Arabic & Localization
+  blurb: Arabic and RTL support, translation tooling, and Islamic applications.
+
+- slug: data
+  title: Data & Databases
+  blurb: Databases, migrations, query building, import and export, and datasets.
+
+- slug: devops
+  title: DevOps & Infrastructure
+  blurb: Deployment, servers, monitoring, and the tooling that keeps them running.
+
+- slug: devtools
+  title: Developer Tools
+  blurb: CLIs, editor extensions, libraries, and utilities developers reach for.
+
+- slug: security
+  title: Security & Cryptography
+  blurb: Authentication, authorization, encryption, and defensive tooling.
+
+- slug: bots
+  title: Bots & Messaging
+  blurb: Chat bots, SMS and WhatsApp integrations, and notification delivery.
+
+- slug: games
+  title: Games & Graphics
+  blurb: Games, game engines, and 2D and 3D graphics.
+
+- slug: learning
+  title: Learning & Documentation
+  blurb: Course notes, summaries, cheat sheets, and curated reference material.
+
+- slug: other
+  title: Other
+  blurb: Everything that does not fit a category above yet.

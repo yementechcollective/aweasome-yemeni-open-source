@@ -1,8 +1,9 @@
 name: Validate catalog
 
-# Runs on every pull request. This is the required check that gates merging:
-# it verifies the project table is well formed and that each entry the pull
-# request adds meets the rules in CONTRIBUTING.md.
+# Runs on every pull request. This is the required check that gates merging: it
+# verifies data/projects.yml is well formed, that README.md is what that data
+# renders to, and that each entry the pull request adds meets the rules in
+# CONTRIBUTING.md.
 
 on:
   pull_request:
@@ -23,16 +24,22 @@ jobs:
       - name: Check out the merged result
         uses: actions/checkout@v4
 
-      - name: Fetch the README from the base branch
+      - name: Install PyYAML
+        run: python3 -m pip install --quiet pyyaml
+
+      - name: Fetch the data file from the base branch
         run: |
           git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
-          git show "FETCH_HEAD:README.md" > "${RUNNER_TEMP}/base-README.md"
+          # A base branch from before the data file existed leaves an empty list,
+          # which makes every entry read as newly added -- the safe direction.
+          git show "FETCH_HEAD:data/projects.yml" > "${RUNNER_TEMP}/base-projects.yml" \
+            || echo "[]" > "${RUNNER_TEMP}/base-projects.yml"
 
       - name: Validate the catalog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ALLOW_REMOVALS: ${{ contains(github.event.pull_request.labels.*.name, 'entry-removal') }}
         run: |
-          args=(check --readme README.md --base "${RUNNER_TEMP}/base-README.md")
+          args=(check --base "${RUNNER_TEMP}/base-projects.yml")
           if [ "$ALLOW_REMOVALS" = "true" ]; then args+=(--allow-removals); fi
           python3 scripts/catalog.py "${args[@]}"
