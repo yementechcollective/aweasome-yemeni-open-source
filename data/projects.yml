@@ -1164,7 +1164,7 @@
   url: https://github.com/ahmedsalah-tech/RSA-Toolkit
   category: security
   tech: Next.js · FastAPI
-  description: A full-stack RSA cryptography workbench — generate keys, encrypt, decrypt, sign, and verify, all from the browser.
+  description: A full-stack RSA & hybrid AES-GCM cryptography workbench — generate keys, encrypt text & files (up to 50MB), decrypt, sign, and verify, all from the browser.
 - name: asp-classic-push-notifications
   url: https://github.com/YemenOpenSource/asp-classic-push-notifications
   category: bots

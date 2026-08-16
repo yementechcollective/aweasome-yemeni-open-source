@@ -433,7 +433,7 @@ credit stays with its author, and descriptions are taken from those repositories
 | [nodejs-express-jwt](https://github.com/al-saloul/nodejs-express-jwt) | JavaScript | A simple auth API with Nodejs and express with JWT. |
 | [password-generator](https://github.com/muath-ye/password-generator) | JavaScript | Generates a strong password yet from your terminal. |
 | [role-craft](https://github.com/i74ifa/role-craft) | PHP | designed to automate role creation and permission management in Laravel applications by integrating with the spatie/laravel-permission package. |
-| [RSA-Toolkit](https://github.com/ahmedsalah-tech/RSA-Toolkit) | Next.js · FastAPI | A full-stack RSA cryptography workbench — generate keys, encrypt, decrypt, sign, and verify, all from the browser. |
+| [RSA-Toolkit](https://github.com/ahmedsalah-tech/RSA-Toolkit) | Next.js · FastAPI | A full-stack RSA & hybrid AES-GCM cryptography workbench — generate keys, encrypt text & files (up to 50MB), decrypt, sign, and verify, all from the browser. |
 
 <sub>[↑ Back to categories](#browse-by-category)</sub>
 
