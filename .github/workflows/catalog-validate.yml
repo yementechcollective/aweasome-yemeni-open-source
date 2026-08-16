@@ -28,18 +28,26 @@ jobs:
         run: python3 -m pip install --quiet pyyaml
 
       - name: Fetch the data file from the base branch
+        id: base
         run: |
           git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
-          # A base branch from before the data file existed leaves an empty list,
-          # which makes every entry read as newly added -- the safe direction.
-          git show "FETCH_HEAD:data/projects.yml" > "${RUNNER_TEMP}/base-projects.yml" \
-            || echo "[]" > "${RUNNER_TEMP}/base-projects.yml"
+          # A base branch from before the data file existed cannot say which
+          # entries are new, so the stricter per-entry rules are skipped rather
+          # than applied to all of them at once.
+          if git show "FETCH_HEAD:data/projects.yml" > "${RUNNER_TEMP}/base-projects.yml"; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::The base branch has no data/projects.yml, so this ran as a full-catalog check."
+          fi
 
       - name: Validate the catalog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HAS_BASE: ${{ steps.base.outputs.exists }}
           ALLOW_REMOVALS: ${{ contains(github.event.pull_request.labels.*.name, 'entry-removal') }}
         run: |
-          args=(check --base "${RUNNER_TEMP}/base-projects.yml")
+          args=(check)
+          if [ "$HAS_BASE" = "true" ]; then args+=(--base "${RUNNER_TEMP}/base-projects.yml"); fi
           if [ "$ALLOW_REMOVALS" = "true" ]; then args+=(--allow-removals); fi
           python3 scripts/catalog.py "${args[@]}"
