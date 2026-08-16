@@ -308,7 +308,7 @@ descriptions are taken from those repositories.
 | 236 | [Thekr App](https://github.com/zaidmahdidev/thekr-app) | Dart | Flutter Islamic app featuring the Qur'an, daily Athkar, Hisn Al-Muslim, Qiblah direction, Names of Allah, and Al-Arba’een Al-Nawawiya. |
 | 237 | [react-three-utils](https://github.com/abdulrahmanal-tayeb/react-three-utils) | React | Utilities for 3d website development. |
 | 238 | [magicar](https://github.com/amtcode/magicar) | Unity | Arabic support for Unity projects with multiline support |
-| 239 | [RSA-Toolkit](https://github.com/ahmedsalah-tech/RSA-Toolkit) | Next.js • FastAPI | A full-stack RSA cryptography workbench — generate keys, encrypt, decrypt, sign, and verify, all from the browser. |
+| 239 | [RSA-Toolkit](https://github.com/ahmedsalah-tech/RSA-Toolkit) | Next.js • FastAPI | A full-stack RSA & hybrid AES-GCM cryptography workbench — generate keys, encrypt text & files (up to 50MB), decrypt, sign, and verify, all from the browser. |
 | 240 | [Yemen Offers](https://github.com/yemenoffers/frontend) | Flutter | A Flutter marketplace app connecting consumers with deals and offers across Yemen. |
 | 241 | [Menha](https://github.com/Emad-Almagedy/Menha) | Flutter · Dart · Education | A Flutter app for tracking academic scholarship applications across multiple years with Arabic and English support. |
 | 242 | [Nassila](https://github.com/jamalesam93/Nassila) | Electron · TypeScript | An offline Electron desktop app that validates, corrects, and deduplicates bibliographies against Crossref, PubMed, and OpenAlex. |
