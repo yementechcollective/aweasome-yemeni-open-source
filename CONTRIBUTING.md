@@ -106,7 +106,6 @@ The directory lives in [`data/projects.yml`](data/projects.yml). Add one block a
 | `category` | One slug from [`data/categories.yml`](data/categories.yml), chosen by what the project is **for**. |
 | `tech` | Optional. Languages and frameworks, separated by ` · ` — `PHP`, `Flutter · Dart`, `Next.js · FastAPI`. |
 | `description` | One factual sentence in English, ending with a full stop. |
-| `featured` | Maintainers only. Curated highlights that open the directory. |
 
 Entries are sorted for you by category and then by name, so where you add the block in the file does not matter.
 

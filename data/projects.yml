@@ -8,7 +8,6 @@
 #     category: one of the slugs in data/categories.yml
 #     tech: 'Laravel · PHP'   # optional, languages and frameworks
 #     description: One sentence, in English, ending with a period.
-#     featured: true          # optional, curated highlights only
 #
 # Order does not matter -- `fix` sorts entries by category, then by name.
 
@@ -32,13 +31,11 @@
   category: ai-ml
   tech: Laravel
   description: A Laravel integration for DeepSeek PHP Client that provides framework-friendly configuration and convenient access to the DeepSeek API.
-  featured: true
 - name: DeepSeek PHP Client
   url: https://github.com/deepseek-php/deepseek-php-client
   category: ai-ml
   tech: PHP
   description: A community-driven, production-oriented PHP client for the DeepSeek API, featuring a fluent interface, streaming, function calling, and PSR-18-compatible HTTP integration.
-  featured: true
 - name: filament-ai-rewriter
   url: https://github.com/anastalal/filament-ai-rewriter
   category: ai-ml
@@ -109,13 +106,11 @@
   category: ai-ml
   tech: Laravel
   description: A Laravel wrapper for Qwen PHP Client that simplifies integrating Alibaba Qwen models into Laravel applications.
-  featured: true
 - name: Qwen PHP Client
   url: https://github.com/qwen-php/qwen-php-client
   category: ai-ml
   tech: PHP
   description: A community-maintained PHP client for Alibaba Qwen APIs with fluent request building, configurable models and roles, streaming options, and PSR-18 support.
-  featured: true
 - name: RAG-ecosystem
   url: https://github.com/Esmail-ibraheem/RAG-ecosystem
   category: ai-ml
@@ -201,7 +196,6 @@
   category: web
   tech: Laravel
   description: A collection of reusable helpers for building consistent Laravel APIs and reducing repetitive response and request-handling code.
-  featured: true
 - name: laravel-auto-translate
   url: https://github.com/husam-tariq/laravel-auto-translate
   category: web
@@ -671,7 +665,6 @@
   category: payments
   tech: Laravel
   description: Helpers and value-oriented utilities for implementing tax and VAT calculations consistently in Laravel applications.
-  featured: true
 - name: laravel-wallet
   url: https://github.com/YemenOpenSource/laravel-wallet
   category: payments
@@ -766,7 +759,6 @@
   category: arabic
   tech: PHP · Laravel
   description: An HTML-to-PDF generator for PHP and Laravel with native Arabic and RTL support, built-in fonts, S3 storage support, and enhancements over Dompdf for documents, invoices, and reports.
-  featured: true
 - name: laravel-arabic-numbers-middleware
   url: https://github.com/salkhwlani/laravel-arabic-numbers-middleware
   category: arabic
@@ -777,7 +769,6 @@
   category: arabic
   tech: Laravel
   description: A package for managing translations in multilingual Eloquent models using polymorphic relationships and caching.
-  featured: true
 - name: magicar
   url: https://github.com/amtcode/magicar
   category: arabic
@@ -903,7 +894,6 @@
   category: devops
   tech: Laravel
   description: A deployment toolkit for Laravel and Node.js applications supporting zero-downtime deployments, multiple environments and branches, and customizable deployment commands.
-  featured: true
 - name: laravel-telegram-log
   url: https://github.com/muath-ye/laravel-telegram-log
   category: devops
@@ -983,19 +973,16 @@
   category: devtools
   tech: Laravel · Python
   description: A Laravel wrapper for PhpPy that enables controlled execution of Python scripts directly from Laravel applications without requiring a separate API service.
-  featured: true
 - name: Laravel Time Craft
   url: https://github.com/omaralalwi/laravel-time-craft
   category: devtools
   tech: Laravel
   description: Reusable scopes, traits, and helper functions for expressive date- and time-based queries in Laravel applications.
-  featured: true
 - name: Laravel Trash Cleaner
   url: https://github.com/omaralalwi/laravel-trash-cleaner
   category: devtools
   tech: Laravel
   description: A utility for removing debug files, compiled views, and frontend build artifacts, with optional asset rebuilding and scheduled cleanup.
-  featured: true
 - name: linkedin-invites-helper
   url: https://github.com/emran-alhaddad/linkedin-invites-helper
   category: devtools
@@ -1040,13 +1027,11 @@
   category: devtools
   tech: PHP
   description: Practical PHP traits and examples that make Builder-pattern APIs easier to introduce into PHP applications.
-  featured: true
 - name: PhpPy
   url: https://github.com/omaralalwi/php-py
   category: devtools
   tech: PHP · Python
   description: A framework-agnostic PHP package for controlled Python script execution with configurable paths, arguments, environment variables, timeouts, and structured output handling.
-  featured: true
 - name: pyutube
   url: https://github.com/hetari/pyutube
   category: devtools
@@ -1204,12 +1189,10 @@
   url: https://github.com/omaralalwi/clean-code-summary
   category: learning
   description: Notes and concise summaries of clean-code books and practices for writing readable, maintainable software.
-  featured: true
 - name: Developer Vocabulary Cheatsheet
   url: https://github.com/omaralalwi/developer-vocabulary-cheatsheet
   category: learning
   description: A searchable glossary that connects common software-development needs with the precise technical terms and search phrases developers can use to research them.
-  featured: true
 - name: Payment-Gateways-Saudi-Arabia-Arab-World
   url: https://github.com/anastalal/Payment-Gateways-Saudi-Arabia-Arab-World
   category: learning
@@ -1223,7 +1206,6 @@
   url: https://github.com/omaralalwi/solid-principles-summary
   category: learning
   description: A practical introduction to the five SOLID design principles, with explanations and code examples focused on maintainable and flexible software.
-  featured: true
 - name: tutorials
   url: https://github.com/YemenOpenSource/tutorials
   category: learning
