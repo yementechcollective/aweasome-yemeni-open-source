@@ -73,7 +73,7 @@ EXIT_MANUAL = 2
 class Project:
     """One entry in data/projects.yml."""
 
-    FIELDS = ("name", "url", "category", "tech", "description", "featured",
+    FIELDS = ("name", "url", "category", "tech", "description",
               "stars", "archived", "license")
 
     def __init__(self, raw: dict, index: int, line: int = 1):
@@ -85,7 +85,6 @@ class Project:
         self.category = str(raw.get("category", "")).strip()
         self.tech = str(raw.get("tech", "") or "").strip()
         self.description = str(raw.get("description", "")).strip()
-        self.featured = bool(raw.get("featured", False))
         self.stars = raw.get("stars")
         self.archived = bool(raw.get("archived", False))
         self.license = raw.get("license")
@@ -118,8 +117,6 @@ class Project:
         if description and description[-1] not in ".!?":
             description += "."
         entry["description"] = description
-        if self.featured:
-            entry["featured"] = True
         # Cached GitHub metadata, written by `refresh`. A zero star count is a
         # real value, so test for emptiness rather than truthiness.
         if self.stars is not None:
@@ -222,9 +219,8 @@ def sort_key(name: str) -> str:
 INTRO = """## Projects
 
 This directory lists **{total} projects** by Yemeni developers, grouped by what each project is for
-and listed alphabetically within every group. {featured} curated highlights open the list and also
-appear in their own categories. Every entry links to the project's **original repository**, so
-credit stays with its author, and descriptions are taken from those repositories.
+and listed alphabetically within every group. Every entry links to the project's **original
+repository**, so credit stays with its author, and descriptions are taken from those repositories.
 
 > [!NOTE]
 > Where a project is mirrored as a fork by the independent [Yemen Open Source](https://github.com/YemenOpenSource)
@@ -245,24 +241,19 @@ def cell(text: str) -> str:
     return text.replace("|", "\\|").strip()
 
 
-def render_row(project: Project, with_category: bool, catalog: Catalog) -> str:
+def render_row(project: Project) -> str:
+    """One row of a category table. The category itself is the heading above it."""
     name = cell(project.name) + (" ⚠️" if project.archived else "")
-    cells = [f"[{name}]({project.url})"]
-    if with_category:
-        cells.append(cell(catalog.title(project.category)))
-    cells.append(cell(project.tech) or "—")
-    cells.append(cell(project.description))
-    return "| " + " | ".join(cells) + " |"
+    return (f"| [{name}]({project.url}) | {cell(project.tech) or '—'} "
+            f"| {cell(project.description)} |")
 
 
 def render_block(catalog: Catalog) -> str:
-    featured = [p for p in catalog.sorted_projects() if p.featured]
     groups = catalog.grouped()
 
     lines = [CATALOG_START]
     lines.append(INTRO.format(
         total=catalog.total,
-        featured=len(featured),
         snapshot=catalog.meta.get("snapshot", "an earlier date"),
     ).rstrip())
     lines.append("")
@@ -273,9 +264,6 @@ def render_block(catalog: Catalog) -> str:
     lines.append("")
     lines.append("| Category | Projects | What you will find |")
     lines.append("|---|---:|---|")
-    if featured:
-        lines.append(f"| [⭐ Featured](#{anchor('⭐ Featured')}) | {len(featured)} | "
-                     "Curated highlights, also listed in their own categories. |")
     for slug, members in groups:
         title = catalog.title(slug)
         lines.append(f"| [{title}](#{anchor(title)}) | {len(members)} | "
@@ -284,22 +272,12 @@ def render_block(catalog: Catalog) -> str:
 
     back = f"<sub>[↑ Back to categories](#{anchor('Browse by Category')})</sub>"
 
-    if featured:
-        lines.append("### ⭐ Featured")
-        lines.append("")
-        lines.append("| Project | Category | Tech | Description |")
-        lines.append("|---|---|---|---|")
-        lines.extend(render_row(p, True, catalog) for p in featured)
-        lines.append("")
-        lines.append(back)
-        lines.append("")
-
     for slug, members in groups:
         lines.append(f"### {catalog.title(slug)}")
         lines.append("")
         lines.append("| Project | Tech | Description |")
         lines.append("|---|---|---|")
-        lines.extend(render_row(p, False, catalog) for p in members)
+        lines.extend(render_row(p) for p in members)
         lines.append("")
         lines.append(back)
         lines.append("")

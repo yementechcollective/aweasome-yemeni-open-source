@@ -77,9 +77,8 @@ the ordering, and the categories stay consistent as the directory grows.
 ## Projects
 
 This directory lists **244 projects** by Yemeni developers, grouped by what each project is for
-and listed alphabetically within every group. 17 curated highlights open the list and also
-appear in their own categories. Every entry links to the project's **original repository**, so
-credit stays with its author, and descriptions are taken from those repositories.
+and listed alphabetically within every group. Every entry links to the project's **original
+repository**, so credit stays with its author, and descriptions are taken from those repositories.
 
 > [!NOTE]
 > Where a project is mirrored as a fork by the independent [Yemen Open Source](https://github.com/YemenOpenSource)
@@ -90,7 +89,6 @@ credit stays with its author, and descriptions are taken from those repositories
 
 | Category | Projects | What you will find |
 |---|---:|---|
-| [⭐ Featured](#-featured) | 17 | Curated highlights, also listed in their own categories. |
 | [AI & Machine Learning](#ai--machine-learning) | 32 | LLM clients and SDKs, agents, model implementations, and applied machine learning. |
 | [Web & Backend](#web--backend) | 26 | Web applications, APIs, and server-side frameworks and packages. |
 | [Frontend & UI](#frontend--ui) | 38 | Interface components, admin-panel plugins, themes, and starter templates. |
@@ -106,30 +104,6 @@ credit stays with its author, and descriptions are taken from those repositories
 | [Games & Graphics](#games--graphics) | 1 | Games, game engines, and 2D and 3D graphics. |
 | [Learning & Documentation](#learning--documentation) | 6 | Course notes, summaries, cheat sheets, and curated reference material. |
 | [Other](#other) | 2 | Everything that does not fit a category above yet. |
-
-### ⭐ Featured
-
-| Project | Category | Tech | Description |
-|---|---|---|---|
-| [DeepSeek Laravel](https://github.com/deepseek-php/deepseek-laravel) | AI & Machine Learning | Laravel | A Laravel integration for DeepSeek PHP Client that provides framework-friendly configuration and convenient access to the DeepSeek API. |
-| [DeepSeek PHP Client](https://github.com/deepseek-php/deepseek-php-client) | AI & Machine Learning | PHP | A community-driven, production-oriented PHP client for the DeepSeek API, featuring a fluent interface, streaming, function calling, and PSR-18-compatible HTTP integration. |
-| [Qwen Laravel](https://github.com/qwen-php/qwen-laravel) | AI & Machine Learning | Laravel | A Laravel wrapper for Qwen PHP Client that simplifies integrating Alibaba Qwen models into Laravel applications. |
-| [Qwen PHP Client](https://github.com/qwen-php/qwen-php-client) | AI & Machine Learning | PHP | A community-maintained PHP client for Alibaba Qwen APIs with fluent request building, configurable models and roles, streaming options, and PSR-18 support. |
-| [Laravel API Helpers](https://github.com/omaralalwi/laravel-api-helpers) | Web & Backend | Laravel | A collection of reusable helpers for building consistent Laravel APIs and reducing repetitive response and request-handling code. |
-| [Laravel Taxify](https://github.com/omaralalwi/laravel-taxify) | Payments & Fintech | Laravel | Helpers and value-oriented utilities for implementing tax and VAT calculations consistently in Laravel applications. |
-| [Gpdf](https://github.com/omaralalwi/Gpdf) | Arabic & Localization | PHP · Laravel | An HTML-to-PDF generator for PHP and Laravel with native Arabic and RTL support, built-in fonts, S3 storage support, and enhancements over Dompdf for documents, invoices, and reports. |
-| [Lexi Translate](https://github.com/omaralalwi/lexi-translate) | Arabic & Localization | Laravel | A package for managing translations in multilingual Eloquent models using polymorphic relationships and caching. |
-| [Laravel Deployer](https://github.com/omaralalwi/laravel-deployer) | DevOps & Infrastructure | Laravel | A deployment toolkit for Laravel and Node.js applications supporting zero-downtime deployments, multiple environments and branches, and customizable deployment commands. |
-| [Laravel Py](https://github.com/omaralalwi/laravel-py) | Developer Tools | Laravel · Python | A Laravel wrapper for PhpPy that enables controlled execution of Python scripts directly from Laravel applications without requiring a separate API service. |
-| [Laravel Time Craft](https://github.com/omaralalwi/laravel-time-craft) | Developer Tools | Laravel | Reusable scopes, traits, and helper functions for expressive date- and time-based queries in Laravel applications. |
-| [Laravel Trash Cleaner](https://github.com/omaralalwi/laravel-trash-cleaner) | Developer Tools | Laravel | A utility for removing debug files, compiled views, and frontend build artifacts, with optional asset rebuilding and scheduled cleanup. |
-| [PHP Builders](https://github.com/omaralalwi/php-builders) | Developer Tools | PHP | Practical PHP traits and examples that make Builder-pattern APIs easier to introduce into PHP applications. |
-| [PhpPy](https://github.com/omaralalwi/php-py) | Developer Tools | PHP · Python | A framework-agnostic PHP package for controlled Python script execution with configurable paths, arguments, environment variables, timeouts, and structured output handling. |
-| [Clean Code Summary](https://github.com/omaralalwi/clean-code-summary) | Learning & Documentation | — | Notes and concise summaries of clean-code books and practices for writing readable, maintainable software. |
-| [Developer Vocabulary Cheatsheet](https://github.com/omaralalwi/developer-vocabulary-cheatsheet) | Learning & Documentation | — | A searchable glossary that connects common software-development needs with the precise technical terms and search phrases developers can use to research them. |
-| [SOLID Principles Summary](https://github.com/omaralalwi/solid-principles-summary) | Learning & Documentation | — | A practical introduction to the five SOLID design principles, with explanations and code examples focused on maintainable and flexible software. |
-
-<sub>[↑ Back to categories](#browse-by-category)</sub>
 
 ### AI & Machine Learning
 

@@ -86,8 +86,8 @@ def main() -> int:
 
     if "--with-counts" in sys.argv:
         # A milestone card: accurate the day it is made, and a snapshot after.
-        stats = ((f"{len(projects)}", "projects"), (f"{len(categories)}", "categories"),
-                 (f"{sum(1 for p in projects if p.get('featured'))}", "featured"))
+        stats = ((f"{len(projects)}", "projects"),
+                 (f"{len(categories)}", "categories"))
         x = left
         for value, label in stats:
             draw.text((x, 396), value, font=font(bold, 64), fill=ACCENT)
