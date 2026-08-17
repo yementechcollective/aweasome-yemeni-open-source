@@ -16,535 +16,715 @@
   category: ai-ml
   tech: Python
   description: 'AI research lab🔬: implementations of AI papers and theoretical research: InstructGPT, llama, transformers, diffusion models, RLHF, etc...'
+  stars: 18
+  license: MIT
 - name: cv-ats-analyzer
   url: https://github.com/Alsrory/cv-ats-analyzer
   category: ai-ml
   tech: PHP
   description: AI-powered resume analyzer that simulates ATS logic to optimize CVs for modern hiring systems using Google Gemini.
+  stars: 1
 - name: Deepseek.Asp.Client
   url: https://github.com/Anwar-alhitar/Deepseek.Asp.Client
   category: ai-ml
   tech: C#
   description: No description provided in the repository.
+  stars: 38
+  license: MIT
 - name: DeepSeek Laravel
   url: https://github.com/deepseek-php/deepseek-laravel
   category: ai-ml
   tech: Laravel
   description: A Laravel integration for DeepSeek PHP Client that provides framework-friendly configuration and convenient access to the DeepSeek API.
+  stars: 402
+  license: MIT
 - name: DeepSeek PHP Client
   url: https://github.com/deepseek-php/deepseek-php-client
   category: ai-ml
   tech: PHP
   description: A community-driven, production-oriented PHP client for the DeepSeek API, featuring a fluent interface, streaming, function calling, and PSR-18-compatible HTTP integration.
+  stars: 473
+  license: MIT
 - name: filament-ai-rewriter
   url: https://github.com/anastalal/filament-ai-rewriter
   category: ai-ml
   tech: PHP
   description: AI-powered content rewriter for FilamentPHP.
+  stars: 3
+  license: MIT
 - name: Gravitas-Core
   url: https://github.com/ahmed-coding/Gravitas-Core
   category: ai-ml
   tech: Python
   description: Gravitas-Core is a Python-native autonomous AI control plane and MCP (Model Context Protocol) server. It provides a persistent execution core for intelligent agents with task state management, memory persistence, terminal/browser engines, and recursive project intelligence—all designed for scalable AI-driven workflows.
+  stars: 1
+  license: MIT
 - name: KernelBot
   url: https://github.com/KernelCode/KernelBot
   category: ai-ml
   tech: JavaScript
   description: A self-evolving AI with a persistent brain — it stores your world model, memories, and causal patterns in a unified knowledge store. It dispatches a multi-agent swarm on your machine, powered by Claude, GPT, Gemini, or Groq.
+  stars: 8
 - name: laravel-ai-agent
   url: https://github.com/alidaaer/laravel-ai-agent
   category: ai-ml
   tech: PHP
   description: The Laravel AI Agent Package.
+  stars: 30
+  license: MIT
 - name: llms-server
   url: https://github.com/Esmail-ibraheem/llms-server
   category: ai-ml
   tech: Dockerfile
   description: llms server, decentralized (local) llms to run in your computer privately, host ALL your AI locally.
+  stars: 17
+  license: MIT
 - name: mersad-with-midad
   url: https://github.com/Abdullah-Saeed-BB/mersad-with-midad
   category: ai-ml
   tech: HTML
   description: Mersad with the Midad add-on, an AI assistant that helps writers and photographers produce content.
+  stars: 3
 - name: Mixtral.c
   url: https://github.com/Esmail-ibraheem/Mixtral.c
   category: ai-ml
   tech: C
   description: mixtral model from scratch using pure c.
+  stars: 4
+  license: MIT
 - name: nanograd
   url: https://github.com/Esmail-ibraheem/nanograd
   category: ai-ml
   tech: Python
   description: nanograd🧠 deep learning and neural net ecosystem, run models like GPT, llama, stable diffusion, vision transformer, reinforcement learning, autotrainer, your Unreal Engine, but for AI, essentially making it an AI engine or an AI Ecosystem.
+  stars: 9
+  license: MIT
 - name: Neural-Chat-Game
   url: https://github.com/Esmail-ibraheem/Neural-Chat-Game
   category: ai-ml
   tech: HTML
   description: Interaction world with AIs.
+  stars: 1
+  license: MIT
 - name: neural-network-hello-world
   url: https://github.com/Esmail-ibraheem/neural-network-hello-world
   category: ai-ml
   tech: Cuda
   description: A ``Hello World" Example of Artificial Intelligence in C/C++ and CUDA.
+  stars: 1
+  license: MIT
 - name: Nexus
   url: https://github.com/Esmail-ibraheem/Nexus
   category: ai-ml
   tech: Python
   description: A research implementation of dynamic GPU resource allocation for Mixture of Experts models, reporting throughput and energy-efficiency gains.
+  stars: 7
+  license: MIT
 - name: odoo-mcp-server
   url: https://github.com/sameeroz/odoo-mcp-server
   category: ai-ml
   tech: Python
   description: A robust and efficient implementation of the Model Context Protocol (MCP) built to connect seamlessly with Odoo ERP. This server empowers developers to enable AI-driven automation, intelligent integrations, and enhanced workflow management within Odoo environments — providing a solid foundation for extending and automating business processes.
+  stars: 5
+  license: MIT
 - name: qwen.ASPClient
   url: https://github.com/Anwar-alhitar/qwen.ASPClient
   category: ai-ml
   tech: C#
   description: No description provided in the repository.
+  stars: 6
+  license: MIT
 - name: Qwen Laravel
   url: https://github.com/qwen-php/qwen-laravel
   category: ai-ml
   tech: Laravel
   description: A Laravel wrapper for Qwen PHP Client that simplifies integrating Alibaba Qwen models into Laravel applications.
+  stars: 15
+  license: MIT
 - name: Qwen PHP Client
   url: https://github.com/qwen-php/qwen-php-client
   category: ai-ml
   tech: PHP
   description: A community-maintained PHP client for Alibaba Qwen APIs with fluent request building, configurable models and roles, streaming options, and PSR-18 support.
+  stars: 20
+  license: MIT
 - name: RAG-ecosystem
   url: https://github.com/Esmail-ibraheem/RAG-ecosystem
   category: ai-ml
   tech: Python
   description: A complete retrieval-augmented generation (RAG) system.
+  stars: 2
+  license: MIT
 - name: remove-background
   url: https://github.com/Ahmed-Sitl/remove-background
   category: ai-ml
   tech: Python
   description: No description provided in the repository.
+  stars: 3
 - name: retransify
   url: https://github.com/Husam-Abdulraheem/retransify
   category: ai-ml
   tech: React Native
   description: CLI tool that autonomously converts React web projects into production-ready React Native (Expo) apps using AI and LangGraph agentic workflows.
+  stars: 3
+  license: Apache-2.0
 - name: saas_ai_website_builder
   url: https://github.com/HamzaAmir97/saas_ai_website_builder
   category: ai-ml
   tech: TypeScript
   description: Codey is an AI Website Builder and AI-powered platform that lets users create and preview full websites just by chatting with an assistant. It supports multi-model AI code generation, sandboxed previews using Docker, and user authentication + billing via Clerk.
+  stars: 39
+  license: MIT
 - name: safe-driving-project-using-artificial-intelligence
   url: https://github.com/abdullahNabilSalem/safe-driving-project-using-artificial-intelligence
   category: ai-ml
   tech: Python
   description: This project aims to enhance road safety using artificial intelligence to detect driver eye closure and alert them when they feel drowsy. The project relies on OpenCV and MediaPipe for facial analysis and eye tracking, with pygame used to trigger the alert sound.
+  stars: 1
 - name: Stable-Diffusion-pytorch
   url: https://github.com/Esmail-ibraheem/Stable-Diffusion-pytorch
   category: ai-ml
   tech: Python
   description: 🎨"Denoising Diffusion Probabilistic Models" paper implementation.
+  stars: 13
+  license: MIT
 - name: stream-openai
   url: https://github.com/muath-ye/stream-openai
   category: ai-ml
   tech: Blade
   description: No description provided in the repository.
+  stars: 7
 - name: TAL
   url: https://github.com/Esmail-ibraheem/TAL
   category: ai-ml
   tech: Python
   description: I developed a Python library for transformers, leveraging the architecture I previously designed. With this library, users can freely install and utilize the transformer architecture.
+  stars: 3
+  license: MIT
 - name: Tinyllamas-pytorch
   url: https://github.com/Esmail-ibraheem/Tinyllamas-pytorch
   category: ai-ml
   tech: Python
   description: Tinyllamas🦙 is an Extensible advanced language model framework, inspired by the original Llama model.
+  stars: 6
+  license: Apache-2.0
 - name: Transformer-Architecture
   url: https://github.com/Esmail-ibraheem/Transformer-Architecture
   category: ai-ml
   tech: Jupyter Notebook
   description: 'I built the Transformer model itself from scratch from the paper "Attention is all you need", Feel free to use this model for your specific purposes: translation, text generation, etc...'
+  stars: 4
+  license: MIT
 - name: Transformer-pytorch
   url: https://github.com/Esmail-ibraheem/Transformer-pytorch
   category: ai-ml
   tech: Jupyter Notebook
   description: Language to Language Transformer model where i used my transformer model for translation task. from the paper "Attention is all you Need" using pytorch.
+  stars: 9
+  license: MIT
 - name: yemen-open-source-post-generator
   url: https://github.com/WatheqAlshowaiter/yemen-open-source-post-generator
   category: ai-ml
   tech: PHP
   description: Generate Yemen Open Source post with as much automation & AI as possible.
+  stars: 2
 - name: behind-shorten-url
   url: https://github.com/muath-ye/behind-shorten-url
   category: web
   tech: PHP
   description: Get the Original URL behind a Shortened link using PHP.
+  stars: 5
 - name: for-yemen-info
   url: https://github.com/YemenOpenSource/for-yemen-info
   category: web
   tech: PHP
   description: some laravel codes that help (https://github.com/YemenOpenSource/Yemen-info).
+  stars: 1
 - name: iftar-management
   url: https://github.com/Anwar-alhitar/iftar-management
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 10
 - name: laraodoo-xmlrpc
   url: https://github.com/alazzi-az/laraodoo-xmlrpc
   category: web
   tech: PHP
   description: Odoo-Xmlrpc PHP for Laravel is a supercharged PHP API client that allows you to interact with the Odoo XML-RPC API.
+  stars: 20
+  license: MIT
 - name: Laravel API Helpers
   url: https://github.com/omaralalwi/laravel-api-helpers
   category: web
   tech: Laravel
   description: A collection of reusable helpers for building consistent Laravel APIs and reducing repetitive response and request-handling code.
+  stars: 15
+  license: MIT
 - name: laravel-auto-translate
   url: https://github.com/husam-tariq/laravel-auto-translate
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 2
 - name: laravel-bitmask
   url: https://github.com/alazzi-az/laravel-bitmask
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 10
+  license: MIT
 - name: laravel-helpers
   url: https://github.com/YemenOpenSource/laravel-helpers
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 6
+  license: MIT
 - name: laravel-macros
   url: https://github.com/m-alghobary/laravel-macros
   category: web
   tech: PHP
   description: Add missing reusable functionality to Laravel through macros.
+  stars: 12
+  license: MIT
 - name: laravel-search
   url: https://github.com/OsamaAlmamri/laravel-search
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 7
+  license: MIT
 - name: laravel-translation-importer
   url: https://github.com/anastalal/laravel-translation-importer
   category: web
   tech: PHP
   description: Simple and powerful solution to manage your Laravel translation keys efficiently.
+  stars: 5
+  license: MIT
 - name: model-fields
   url: https://github.com/WatheqAlshowaiter/model-fields
   category: web
   tech: PHP
   description: Quickly retrieve required, nullable, and default fields for any Laravel model.
+  stars: 40
+  license: MIT
 - name: odoo-xmlrpc
   url: https://github.com/alazzi-az/odoo-xmlrpc
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 30
+  license: MIT
 - name: php-bitmask
   url: https://github.com/alazzi-az/php-bitmask
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 4
+  license: MIT
 - name: profile_site
   url: https://github.com/YacoubAl-hardari/profile_site
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 4
 - name: project-payroll
   url: https://github.com/morghim/project-payroll
   category: web
   tech: Python
   description: erpnext app for make employee salary on payroll entry based on one or more project with percentage for all project equal 100 %.
+  stars: 24
+  license: NOASSERTION
 - name: protected-access-portal
   url: https://github.com/YemenOpenSource/protected-access-portal
   category: web
   tech: PHP
   description: Protected Access Portal, powered by https://muathye.com?ref=protected_access_portal.
+  stars: 0
 - name: renting-buildings-rooms-management-system
   url: https://github.com/alsuhaibi96/renting-buildings-rooms-management-system
   category: web
   tech: PHP
   description: Rent Blue is a laravel based project that manages buildings, rooms, additional services, reservations ,seasons ,statuses, users ,roles and permissions, for renting rooms in special seasons using laravel filament.
+  stars: 29
 - name: Route-Rider-System
   url: https://github.com/akramghaleb/Route-Rider-System
   category: web
   tech: PHP
   description: This project was built on Mosand Workshop Day.
+  stars: 18
+  license: MIT
 - name: school-management-system
   url: https://github.com/sfwnisme/school-management-system
   category: web
   tech: TypeScript
   description: A practical project uses the most recent nextjs app-router version.
+  stars: 7
 - name: shop
   url: https://github.com/YemenOpenSource/shop
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 0
 - name: smart-image-hotspots
   url: https://github.com/emran-alhaddad/smart-image-hotspots
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 4
+  license: MIT
 - name: statamic-content-sync
   url: https://github.com/emran-alhaddad/statamic-content-sync
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 3
+  license: MIT
 - name: statamic-graphql-protect
   url: https://github.com/emran-alhaddad/statamic-graphql-protect
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 4
+  license: MIT
 - name: statamic-logbook
   url: https://github.com/emran-alhaddad/statamic-logbook
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 9
+  license: NOASSERTION
 - name: vaid
   url: https://github.com/i74ifa/vaid
   category: web
   tech: PHP
   description: No description provided in the repository.
+  stars: 2
 - name: blade-realtime-input
   url: https://github.com/YemenOpenSource/blade-realtime-input
   category: frontend
   tech: Blade
   description: Enjoy realtime input validation by passing your rules in your input itself.
+  stars: 52
+  license: MIT
 - name: Blazor-Components
   url: https://github.com/AladdinAlhazmi/Blazor-Components
   category: frontend
   tech: HTML
   description: No description provided in the repository.
+  stars: 1
 - name: filament3-timepicker
   url: https://github.com/husam-tariq/filament3-timepicker
   category: frontend
   tech: JavaScript
   description: No description provided in the repository.
+  stars: 0
+  archived: true
+  license: MIT
 - name: filament-announcement
   url: https://github.com/HasanYagout/filament-announcement
   category: frontend
   tech: PHP
   description: No description provided in the repository.
+  stars: 7
+  license: MIT
 - name: filament-audio-video-player
   url: https://github.com/aymanalhattami/filament-audio-video-player
   category: frontend
   tech: PHP
   description: No description provided in the repository.
+  stars: 5
+  license: MIT
 - name: filament-certificate-generator
   url: https://github.com/husam-tariq/filament-certificate-generator
   category: frontend
   tech: JavaScript
   description: No description provided in the repository.
+  stars: 2
+  license: MIT
 - name: filament-context-menu
   url: https://github.com/aymanalhattami/filament-context-menu
   category: frontend
   tech: PHP
   description: Add a context menu (right click menu) for resource pages, custom pages and table cells of Filament Admin Panel.
+  stars: 100
+  license: MIT
 - name: filament-custom-fields
   url: https://github.com/yemenpoint/filament-custom-fields
   category: frontend
   tech: PHP
   description: No description provided in the repository.
+  stars: 28
 - name: filament-date-scopes-filter
   url: https://github.com/aymanalhattami/filament-date-scopes-filter
   category: frontend
   tech: PHP
   description: Provide a filter by seconds, minutes, hours, days, weeks, months, quarter, years, decades and millenniums for table.
+  stars: 19
+  license: MIT
 - name: Filament-Generate-Helpers
   url: https://github.com/A909M/Filament-Generate-Helpers
   category: frontend
   tech: PHP
   description: Effortlessly generate reusable form fields and table column helpers for Filament resources based on Laravel models, streamlining your development workflow.
+  stars: 25
+  license: MIT
 - name: filament-google-map-location-picker
   url: https://github.com/yemenpoint/filament-google-map-location-picker
   category: frontend
   tech: Blade
   description: A Filament form field for picking a location on a Google Map.
+  stars: 29
+  license: MIT
 - name: filament-image-gallery
   url: https://github.com/al-saloul/filament-image-gallery
   category: frontend
   tech: PHP
   description: A Filament 3 & 4 plugin that provides an image-gallery column, an infolist gallery entry, and a standalone Blade component — all with a built-in responsive viewer for full-size previews.
+  stars: 45
+  license: MIT
 - name: filament-page-with-sidebar
   url: https://github.com/aymanalhattami/filament-page-with-sidebar
   category: frontend
   tech: PHP
   description: Organize pages in the sidebar in order to make navigation between pages more comfortable.
+  stars: 272
+  license: MIT
 - name: filament-slim-scrollbar
   url: https://github.com/aymanalhattami/filament-slim-scrollbar
   category: frontend
   tech: PHP
   description: 'Simple package to make the application''s scrollbars slim.'
+  stars: 51
+  license: MIT
 - name: Filament-StateFusion
   url: https://github.com/A909M/Filament-StateFusion
   category: frontend
   tech: PHP
   description: Filament StateFusion is a powerful FilamentPHP plugin that seamlessly integrates Spatie Laravel Model States into the Filament admin panel. This package provides an intuitive way to manage model states, transitions, and filtering within Filament, enhancing the user experience and developer productivity.
+  stars: 32
+  license: MIT
 - name: filament-sticky-table-header
   url: https://github.com/WatheqAlshowaiter/filament-sticky-table-header
   category: frontend
   tech: PHP
   description: Make FilamentPHP tables stick when scrolling down for better UX.
+  stars: 36
+  license: MIT
 - name: filament-tour
   url: https://github.com/YacoubAl-hardari/filament-tour
   category: frontend
   tech: PHP
   description: An interactive guided tour for the Filament admin panel powered by Shepherd.js. This plugin adds a tour trigger button to the Filament user menu and lets you build a step‑by‑step walkthrough of your panel pages, with full control over colors, texts, and welcome/finish screens.
+  stars: 14
+  license: MIT
 - name: FilamentTree
   url: https://github.com/yemenpoint/FilamentTree
   category: frontend
   tech: Blade
   description: No description provided in the repository.
+  stars: 28
 - name: hero-icons
   url: https://github.com/YemenOpenSource/hero-icons
   category: frontend
   tech: PHP
   description: Generate Hero Icons names as PHP constances from Laravel UI kit vendor svg files.
+  stars: 13
+  license: MIT
 - name: kunafa-dashboard-vue
   url: https://github.com/kunafaPlus/kunafa-dashboard-vue
   category: frontend
   tech: Vue
   description: A feature-rich Modern Vue.js 3 & TailwindCSS & Vite Admin dashboard, with Real API Demo Data and multi-language support and full RTL/LTR bidirectional layout capabilities.
+  stars: 33
 - name: laravel-nuxt-template
   url: https://github.com/akramghaleb/laravel-nuxt-template
   category: frontend
   tech: PHP
   description: This repository provides a starter template for building web applications using Laravel as the backend and Nuxt.js as the frontend framework.
+  stars: 10
+  license: MIT
 - name: laravel-startkit
   url: https://github.com/omaralalwi/laravel-startkit
   category: frontend
   tech: PHP
   description: Laravel Admin Dashboard, Admin Template with Frontend Template, for scalable Laravel projects. It is to save your time when You start with new scalable Laravel projects with many features Bootstrap, cooreui, infyom admin Generator, roles and permissions, translatable models, spatie media and much more.
+  stars: 90
+  archived: true
+  license: GPL-3.0
 - name: mdi-selector
   url: https://github.com/OsamaAlmamri/mdi-selector
   category: frontend
   tech: JavaScript
   description: No description provided in the repository.
+  stars: 17
 - name: mesh-magic
   url: https://github.com/hetari/mesh-magic
   category: frontend
   tech: Vue
   description: No description provided in the repository.
+  stars: 10
 - name: nuxt-laravelapi-starter-kit
   url: https://github.com/sumer5020/nuxt-laravelapi-starter-kit
   category: frontend
   tech: PHP
   description: Ready to go Laravel web api and nuxt3 template 🔥.
+  stars: 11
+  license: MIT
 - name: organization-chart
   url: https://github.com/YacoubAl-hardari/organization-chart
   category: frontend
   tech: PHP
   description: 'A powerful and elegant Filament widget plugin for creating interactive organizational charts. Built on top of Highcharts, this package provides a fluent API for visualizing your company''s hierarchy with style.'
+  stars: 9
+  license: MIT
 - name: Pick-the-last-item-selected-in-multiple-select2
   url: https://github.com/AladdinAlhazmi/Pick-the-last-item-selected-in-multiple-select2
   category: frontend
   tech: JavaScript
   description: A JavaScript snippet for reading the last item selected in a Select2 multiple-select input.
+  stars: 1
 - name: promising-jobs
   url: https://github.com/alsuhaibi96/promising-jobs
   category: frontend
   tech: JavaScript
   description: Promising jobs is an open source react website that has the UIs and functionalites of websites that link between the freelancer and the client.
+  stars: 14
 - name: react-assets-generator
   url: https://github.com/mukarrammahmoud/react-assets-generator
   category: frontend
   tech: React
   description: Production-ready React Assets Code Generator - Type-safe asset imports for React projects.
+  stars: 2
+  license: MIT
 - name: react-profile
   url: https://github.com/YacoubAl-hardari/react-profile
   category: frontend
   tech: TypeScript
   description: No description provided in the repository.
+  stars: 10
 - name: Saudi-Riyal-Font
   url: https://github.com/emran-alhaddad/Saudi-Riyal-Font
   category: frontend
   tech: CSS
   description: The official open-source font for the Saudi Riyal currency symbol. Works on all platforms!
+  stars: 142
+  license: NOASSERTION
 - name: shadcn-docs-template
   url: https://github.com/hetari/shadcn-docs-template
   category: frontend
   tech: Vue
   description: Build your docs like shadcn does.
+  stars: 27
 - name: simple-project
   url: https://github.com/YemenOpenSource/simple-project
   category: frontend
   tech: PHP
   description: This template should help get you started developing with laravel 9 + Vue 3 in Vite + Tailwind.
+  stars: 6
 - name: smart-bank-UI
   url: https://github.com/YemenOpenSource/smart-bank-UI
   category: frontend
   description: No description provided in the repository.
+  stars: 0
 - name: todo-app
   url: https://github.com/akramghaleb/todo-app
   category: frontend
   tech: JavaScript
   description: simple Todo App using laravel + vue + tailwind.
+  stars: 2
+  license: MIT
 - name: unplugin-remix-router
   url: https://github.com/ws-rush/unplugin-remix-router
   category: frontend
   tech: TypeScript
   description: 'This plugin streamlines React Router''s routing setup with automatic file-based routing, requiring React Router 6.4+.'
+  stars: 12
+  archived: true
+  license: MIT
 - name: visi
   url: https://github.com/sfwnisme/visi
   category: frontend
   tech: TypeScript
   description: 'React package inspired by SolidJS''s powerful and efficient conditional rendering components.'
+  stars: 16
+  license: MIT
 - name: vue-and-react-library-template
   url: https://github.com/hetari/vue-and-react-library-template
   category: frontend
   tech: TypeScript
   description: A template for building shared libraries in both Vue and React. This template uses Vite for fast builds and includes TypeScript support, with easy configuration for single or multiple framework targets.
+  stars: 15
+  license: MIT
 - name: awesome_bottom_sheet
   url: https://github.com/AHMED-HOMISHAN/awesome_bottom_sheet
   category: mobile
   tech: Dart
   description: A beautiful and customizable Flutter package for displaying animated message bottom sheets with support for different message types, custom styling, and Lottie animations.
+  stars: 3
+  license: MIT
 - name: chrono_track
   url: https://github.com/m-alshabibi/chrono_track
   category: mobile
   tech: Dart
   description: 'This is a personal chrono track and management application developed using the Flutter framework. It''s designed to help users efficiently log, manage, and track time spent on different projects and tasks.'
+  stars: 3
 - name: device_info
   url: https://github.com/AHMED-HOMISHAN/device_info
   category: mobile
   tech: C++
   description: Android 10+ uses ANDROID_ID. Android 8 and 9 uses Build.getSerial() but requires READ_PHONE_STATE.
+  stars: 2
 - name: fake-caller
   url: https://github.com/thejulan/fake-caller
   category: mobile
   tech: Dart
   description: No description provided in the repository.
+  stars: 1
 - name: fake-notification
   url: https://github.com/thejulan/fake-notification
   category: mobile
   tech: Dart
   description: 🎭 The ultimate local notification simulator. Built with Flutter & native Kotlin to perfectly spoof authentic Android notifications using true app icon extraction, dynamic looping, and smart auto-fill. 100% offline and privacy-first.
+  stars: 1
 - name: fake-sms
   url: https://github.com/thejulan/fake-sms
   category: mobile
   tech: Dart
   description: A modern, offline Android tool built with Flutter & Kotlin to safely generate and insert custom SMS messages directly into your native inbox. 📱✉️.
+  stars: 2
 - name: flutter-clean-architecture
   url: https://github.com/abdullah-alwajih/flutter-clean-architecture
   category: mobile
   tech: Dart
   description: No description provided in the repository.
+  stars: 4
 - name: flutter-helper
   url: https://github.com/YemenOpenSource/flutter-helper
   category: mobile
   tech: Dart
   description: No description provided in the repository.
+  stars: 3
 - name: flutter-todo
   url: https://github.com/akramghaleb/flutter-todo
   category: mobile
   tech: Dart
   description: A to-do list application built with Flutter.
+  stars: 2
+  license: MIT
 - name: glaze_nav_bar
   url: https://github.com/MokarmDev/glaze_nav_bar
   category: mobile
   tech: Dart
   description: A stunning glassmorphic navigation bar with gradient support, smooth animations, and modern design. Perfect for creating beautiful bottom navigation experiences.
+  stars: 23
+  license: MIT
 - name: google_ads
   url: https://github.com/YemenOpenSource/google_ads
   category: mobile
   tech: Dart
   description: An easy way to add all google ads to your flutter app.
+  stars: 7
 - name: Menha
   url: https://github.com/Emad-Almagedy/Menha
   category: mobile
@@ -555,668 +735,878 @@
   category: mobile
   tech: Dart
   description: A Flutter widget for pagination.
+  stars: 5
+  license: GPL-3.0
 - name: results_maker
   url: https://github.com/KamalBalah/results_maker
   category: mobile
   tech: Dart
   description: No description provided in the repository.
+  stars: 8
 - name: smart_cached_network_lottie
   url: https://github.com/AHMED-HOMISHAN/smart_cached_network_lottie
   category: mobile
   tech: Dart
   description: A Flutter package for caching Lottie animations with smart update detection, automatic format handling (JSON and dotLottie), and ETag/Last-Modified based cache invalidation.
+  stars: 1
+  license: MIT
 - name: SmoothMotion
   url: https://github.com/abdullahalhakimi/SmoothMotion
   category: mobile
   tech: Kotlin
   description: Smooth Motion is a Kotlin library for simplifying animations and transitions in Jetpack Compose. It provides pre-built animations for common UI interactions and utility functions for implementing complex animations.
+  stars: 81
+  license: Apache-2.0
 - name: super-localizations
   url: https://github.com/abdullah-alwajih/super-localizations
   category: mobile
   tech: Dart
   description: No description provided in the repository.
+  stars: 3
+  license: NOASSERTION
 - name: super-repository
   url: https://github.com/abdullah-alwajih/super-repository
   category: mobile
   tech: Dart
   description: No description provided in the repository.
+  stars: 3
+  license: NOASSERTION
 - name: Yemen Offers
   url: https://github.com/yemenoffers/frontend
   category: mobile
   tech: Flutter
   description: A Flutter marketplace app connecting consumers with deals and offers across Yemen.
+  stars: 3
+  license: MIT
 - name: dioxus_starter
   url: https://github.com/safwa1/dioxus_starter
   category: desktop
   tech: Rust
   description: A professional, production-ready starter kit (template) for building desktop applications with Dioxus (Rust). This template features a custom window, multi-language localization, dark/light theme support, and modern styling with Tailwind CSS.
+  stars: 4
 - name: Nassila
   url: https://github.com/jamalesam93/Nassila
   category: desktop
   tech: Electron · TypeScript
   description: An offline Electron desktop app that validates, corrects, and deduplicates bibliographies against Crossref, PubMed, and OpenAlex.
+  stars: 2
+  license: MIT
 - name: alinma-pay
   url: https://github.com/YacoubAl-hardari/alinma-pay
   category: payments
   tech: PHP
   description: A Laravel package for integrating the Alinma Pay payment gateway.
+  stars: 2
+  license: NOASSERTION
 - name: AlQutaibiBank-payment
   url: https://github.com/Alsharie/AlQutaibiBank-payment
   category: payments
   tech: PHP
   description: laravel package for AlQutaibiBank payment getway.
+  stars: 7
 - name: alrajhi-payment-gateway
   url: https://github.com/YacoubAl-hardari/alrajhi-payment-gateway
   category: payments
   tech: PHP
   description: No description provided in the repository.
+  stars: 3
 - name: cash-payment
   url: https://github.com/Alsharie/cash-payment
   category: payments
   tech: PHP
   description: No description provided in the repository.
+  stars: 11
 - name: contract-payment
   url: https://github.com/morghim/contract-payment
   category: payments
   tech: Python
   description: frappe erpnext app for make contract link to invoices and make manage dues over contract.
+  stars: 35
+  license: NOASSERTION
 - name: floosak-payment
   url: https://github.com/Alsharie/floosak-payment
   category: payments
   tech: PHP
   description: No description provided in the repository.
+  stars: 15
 - name: floosak-payment-js
   url: https://github.com/Alsharie/floosak-payment-js
   category: payments
   tech: TypeScript
   description: No description provided in the repository.
+  stars: 2
 - name: iframe_cashpay
   url: https://github.com/devhakeem5/iframe_cashpay
   category: payments
   tech: C++
   description: The iframe_cashpay plugin, adapted to work with recent Flutter versions.
+  stars: 5
+  license: ISC
 - name: jawali-payment
   url: https://github.com/Alsharie/jawali-payment
   category: payments
   tech: PHP
   description: No description provided in the repository.
+  stars: 8
 - name: jawali-payment-js
   url: https://github.com/Alsharie/jawali-payment-js
   category: payments
   tech: TypeScript
   description: No description provided in the repository.
+  stars: 3
 - name: kuraimiepay
   url: https://github.com/Alsharie/kuraimiepay
   category: payments
   tech: TypeScript
   description: A TypeScript Node.js client library for integrating with the Kuraimi Bank E-Pay API.
+  stars: 7
 - name: laravel-apple-google-wallet-integration
   url: https://github.com/YacoubAl-hardari/laravel-apple-google-wallet-integration
   category: payments
   tech: PHP
   description: No description provided in the repository.
+  stars: 5
 - name: laravel-tamara
   url: https://github.com/alazzi-az/laravel-tamara
   category: payments
   tech: PHP
   description: A tamara sdk Wrapper for Laravel.
+  stars: 11
+  license: MIT
 - name: Laravel Taxify
   url: https://github.com/omaralalwi/laravel-taxify
   category: payments
   tech: Laravel
   description: Helpers and value-oriented utilities for implementing tax and VAT calculations consistently in Laravel applications.
+  stars: 47
+  license: MIT
 - name: laravel-wallet
   url: https://github.com/YemenOpenSource/laravel-wallet
   category: payments
   tech: PHP
   description: This is a wallet functionality for your laravel project.
+  stars: 12
+  license: MIT
 - name: Laravelzatca
   url: https://github.com/alyousfy77885/Laravelzatca
   category: payments
   tech: PHP
   description: Phase 2 of zatca.
+  stars: 11
 - name: laravel-zoho-books
   url: https://github.com/sumer5020/laravel-zoho-books
   category: payments
   tech: PHP
   description: Powerful and streamlined Laravel package for seamless Zoho Books V3 integration.
+  stars: 13
+  license: MIT
 - name: microtec-laravel
   url: https://github.com/al-saloul/microtec-laravel
   category: payments
   tech: PHP
   description: This package integrates with the Microtec ERP system for sending invoices.
+  stars: 12
+  license: MIT
 - name: paylink-flutter-package
   url: https://github.com/sultan-algarbi/paylink-flutter-package
   category: payments
   tech: Dart
   description: 'A Flutter Package designed to simplify the integration of Paylink''s payment gateway into Flutter applications. It provides a streamlined way to handle payments within your Flutter app.'
+  stars: 3
+  license: BSD-3-Clause
 - name: paylink-laravel-package
   url: https://github.com/sultan-algarbi/paylink-laravel-package
   category: payments
   tech: PHP
   description: No description provided in the repository.
+  stars: 3
+  license: NOASSERTION
 - name: paylink-php-package
   url: https://github.com/sultan-algarbi/paylink-php-package
   category: payments
   tech: PHP
   description: No description provided in the repository.
+  stars: 2
+  license: NOASSERTION
 - name: paylink-python-package
   url: https://github.com/sultan-algarbi/paylink-python-package
   category: payments
   tech: Python
   description: No description provided in the repository.
+  stars: 1
+  license: NOASSERTION
 - name: Pos-Billing-App-Naqdi-PRO
   url: https://github.com/fahm99/Pos-Billing-App-Naqdi-PRO
   category: payments
   tech: Dart
   description: (Naqdi) — Point of Sale & Billing App.
+  stars: 4
 - name: sabacash-payment
   url: https://github.com/Alsharie/sabacash-payment
   category: payments
   tech: PHP
   description: saba cash laravel package.
+  stars: 7
 - name: tabby-laravel-package
   url: https://github.com/sultan-algarbi/tabby-laravel-package
   category: payments
   tech: PHP
   description: No description provided in the repository.
+  stars: 5
+  license: NOASSERTION
 - name: tranzware-payment-gateway
   url: https://github.com/Ab-Alselwi/tranzware-payment-gateway
   category: payments
   tech: PHP
   description: Library for working with TranzWare Payment Gateway, kapitalbank.
+  stars: 3
+  license: MIT
 - name: wammed-urway
   url: https://github.com/Alsharie/wammed-urway
   category: payments
   tech: PHP
   description: laravel package for urway payment getway.
+  stars: 4
 - name: Zakat-Calculator
   url: https://github.com/tawwfik/Zakat-Calculator
   category: payments
   tech: PHP
   description: A Laravel package for calculating zakat on money, gold, silver, business assets, and agricultural products.
+  stars: 10
+  license: MIT
 - name: Zatca-wordpress-plugin
   url: https://github.com/Husam-Almiyah/Zatca-wordpress-plugin
   category: payments
   tech: PHP
   description: A comprehensive WordPress plugin that enables Saudi Arabian businesses to comply with ZATCA (Zakat, Tax and Customs Authority) e-invoicing requirements through WooCommerce integration.
+  stars: 17
+  license: GPL-3.0
 - name: arabic-rtl-support-vscode
   url: https://github.com/i74ifa/arabic-rtl-support-vscode
   category: arabic
   tech: TypeScript
   description: No description provided in the repository.
+  stars: 5
+  license: MIT
 - name: ar-tech-dict-data
   url: https://github.com/YemenOpenSource/ar-tech-dict-data
   category: arabic
   description: Arabic tech dictionary data collection.
+  stars: 4
 - name: athkari
   url: https://github.com/AmmarAlmansouri/athkari
   category: arabic
   tech: TypeScript
   description: A Visual Studio Code extension for daily athkar.
+  stars: 2
 - name: Gpdf
   url: https://github.com/omaralalwi/Gpdf
   category: arabic
   tech: PHP · Laravel
   description: An HTML-to-PDF generator for PHP and Laravel with native Arabic and RTL support, built-in fonts, S3 storage support, and enhancements over Dompdf for documents, invoices, and reports.
+  stars: 157
+  license: MIT
 - name: laravel-arabic-numbers-middleware
   url: https://github.com/salkhwlani/laravel-arabic-numbers-middleware
   category: arabic
   tech: PHP
   description: Middleware that automatically converts Arabic (eastern) numerals to Western numerals and back in Laravel requests.
+  stars: 19
+  license: MIT
 - name: Lexi Translate
   url: https://github.com/omaralalwi/lexi-translate
   category: arabic
   tech: Laravel
   description: A package for managing translations in multilingual Eloquent models using polymorphic relationships and caching.
+  stars: 73
+  license: MIT
 - name: magicar
   url: https://github.com/amtcode/magicar
   category: arabic
   tech: Unity
   description: Arabic support for Unity projects with multiline support.
+  stars: 2
 - name: My.Extensions.Localization.Json
   url: https://github.com/hishamco/My.Extensions.Localization.Json
   category: arabic
   tech: C#
   description: JSON-file localization resources for .NET applications.
+  stars: 121
+  license: MIT
 - name: prayer-pause
   url: https://github.com/cqveman/prayer-pause
   category: arabic
   tech: Python
   description: A prayer app that pulls you out of the matrix!
+  stars: 5
+  license: MIT
 - name: qurani-master
   url: https://github.com/moatasem-alhilali/qurani-master
   category: arabic
   tech: Dart
   description: open source of quran app.
+  stars: 47
 - name: quran-validator-php
   url: https://github.com/WatheqAlshowaiter/quran-validator-php
   category: arabic
   tech: PHP
   description: Validate and verify Quranic verses in LLM-generated text with high accuracy.
+  stars: 10
+  license: MIT
 - name: Schedule-of-Worship-in-Ramadan
   url: https://github.com/YacoubAl-hardari/Schedule-of-Worship-in-Ramadan
   category: arabic
   tech: TypeScript
   description: No description provided in the repository.
+  stars: 3
 - name: tashkeel-coloring
   url: https://github.com/KernelCode/tashkeel-coloring
   category: arabic
   tech: HTML
   description: Colorizes the diacritics (tashkeel) of Arabic text.
+  stars: 2
 - name: Thekr App
   url: https://github.com/zaidmahdidev/thekr-app
   category: arabic
   tech: Dart
   description: 'Flutter Islamic app featuring the Qur''an, daily Athkar, Hisn Al-Muslim, Qiblah direction, Names of Allah, and Al-Arba’een Al-Nawawiya.'
+  stars: 4
+  license: MIT
 - name: backup-tables
   url: https://github.com/WatheqAlshowaiter/backup-tables
   category: data
   tech: PHP
   description: Backup single or multiple database tables with ease.
+  stars: 38
+  license: MIT
 - name: Excel-to-VCF-Contacts
   url: https://github.com/YemenOpenSource/Excel-to-VCF-Contacts
   category: data
   tech: C#
   description: Convert Excel sheet to VCF format (for contacts especially in mobiles).
+  stars: 5
 - name: filament-database-schedule
   url: https://github.com/husam-tariq/filament-database-schedule
   category: data
   tech: PHP
   description: Manage your Filament Task Scheduling in a Filament interface and save schedules to the database.
+  stars: 104
+  license: MIT
 - name: filament-excel
   url: https://github.com/YemenOpenSource/filament-excel
   category: data
   tech: PHP
   description: The easiest way to work with "Excel".
+  stars: 19
+  license: MIT
 - name: Flagable
   url: https://github.com/sowailem/Flagable
   category: data
   tech: PHP
   description: A flexible and robust Laravel package that provides flagging functionality for Eloquent models. This package allows any model to flag any other model with different flag types such as like, follow, favorite, bookmark, upvote, downvote, and more.
+  stars: 18
+  license: MIT
 - name: google-trends-cli
   url: https://github.com/Nao-30/google-trends-cli
   category: data
   tech: Python
   description: A powerful command-line tool for fetching and analyzing Google Trends data, with special features for content creators looking to identify what topics are worthy of writing about right now.
+  stars: 6
+  license: MIT
 - name: historical2realtime
   url: https://github.com/Mohammed-Almekhlafi/historical2realtime
   category: data
   tech: Python
   description: Transform static, tabular historical data into a live, real-time synthetic data stream.
+  stars: 4
 - name: laravel-contact-exporter
   url: https://github.com/DeveloperAbod/laravel-contact-exporter
   category: data
   tech: PHP
   description: Laravel package to export database contacts as vCard (.vcf) files — clean, professional, and effortless.
+  stars: 2
+  license: MIT
 - name: linkedin-scraper-nodejs
   url: https://github.com/moatasem-alhilali/linkedin-scraper-nodejs
   category: data
   tech: JavaScript
   description: No description provided in the repository.
+  stars: 5
 - name: migration-alchemy-laravel
   url: https://github.com/moatasem-alhilali/migration-alchemy-laravel
   category: data
   tech: TypeScript
   description: No description provided in the repository.
+  stars: 2
 - name: Ownable
   url: https://github.com/sowailem/Ownable
   category: data
   tech: PHP
   description: A powerful Laravel package to handle ownership relationships between Eloquent models with flexibility, history tracking, and automatic cleanup.
+  stars: 73
+  license: MIT
 - name: prisma-editor
   url: https://github.com/mohammed-bahumaish/prisma-editor
   category: data
   tech: TypeScript
   description: Prisma Editor - A powerful tool to visualize and edit Prisma Schema.
+  stars: 1036
+  license: MIT
 - name: QueryBuilder
   url: https://github.com/abdulelahragih/QueryBuilder
   category: data
   tech: PHP
   description: Fast, lightweight and simple SQL query builder that does not depend on any third-party library besides PDO to execute the queries in a safe way. The syntax is inspired by Laravel Query Builder.
+  stars: 7
+  license: GPL-3.0
 - name: statamic-dummy-data
   url: https://github.com/emran-alhaddad/statamic-dummy-data
   category: data
   tech: PHP
   description: No description provided in the repository.
+  stars: 1
+  license: MIT
 - name: Yemen-info
   url: https://github.com/YemenOpenSource/Yemen-info
   category: data
   tech: Python
   description: Programming files for Yemeni governorates, districts, uzaal, and villages.
+  stars: 82
+  license: MIT
 - name: laraserve
   url: https://github.com/omer73364/laraserve
   category: devops
   tech: JavaScript
   description: A CLI tool for Effortless Local Laravel Development with Automatic SSL for Linux.
+  stars: 2
 - name: Laravel Deployer
   url: https://github.com/omaralalwi/laravel-deployer
   category: devops
   tech: Laravel
   description: A deployment toolkit for Laravel and Node.js applications supporting zero-downtime deployments, multiple environments and branches, and customizable deployment commands.
+  stars: 34
+  license: MIT
 - name: laravel-telegram-log
   url: https://github.com/muath-ye/laravel-telegram-log
   category: devops
   tech: PHP
   description: No description provided in the repository.
+  stars: 6
+  license: MIT
 - name: AiCommitGenerator
   url: https://github.com/AhmedFadhl/AiCommitGenerator
   category: devtools
   tech: TypeScript
   description: No description provided in the repository.
+  stars: 0
+  license: MIT
 - name: catalog
   url: https://github.com/muath-ye/catalog
   category: devtools
   tech: JavaScript
   description: The "cat" command on your windows to show files content.
+  stars: 3
 - name: cheatsheet-creator
   url: https://github.com/AhmedSaadi0/cheatsheet-creator
   category: devtools
   tech: Python
   description: No description provided in the repository.
+  stars: 2
 - name: Clean.VCF
   url: https://github.com/AlaaAl-Hattami/Clean.VCF
   category: devtools
   tech: JavaScript
   description: cleanVCF is a professional web application that helps users quickly and securely clean and organize contact files (VCF) by removing duplicate or empty numbers. The app aims to simplify contact management, especially when importing contacts from multiple sources such as phones, Google, or external applications.
+  stars: 2
 - name: commands-helper
   url: https://github.com/KernelCode/commands-helper
   category: devtools
   tech: JavaScript
   description: A package help using linux cli with the help of [Google Bard](https://bard.google.com/) through API.
+  stars: 5
 - name: DevImpact
   url: https://github.com/O2sa/DevImpact
   category: devtools
   tech: TypeScript
   description: A smart platform to compare developers by real impact in open-source — not just stars and followers.
+  stars: 22
+  license: MIT
 - name: eh-extract-files-to-txt
   url: https://github.com/EsmailEbrahim/eh-extract-files-to-txt
   category: devtools
   tech: Python
   description: No description provided in the repository.
+  stars: 3
+  license: MIT
 - name: FrontAppMergerPackage
   url: https://github.com/YemenOpenSource/FrontAppMergerPackage
   category: devtools
   description: No description provided in the repository.
+  stars: 0
+  license: MIT
 - name: git-branch-cleaner
   url: https://github.com/omaralalwi/git-branch-cleaner
   category: devtools
   tech: Shell
   description: A smart shell script to automatically delete stale Git branches — keeping only active ones and your main branch. Perfect for large repos with hundreds of inactive branches.
+  stars: 9
 - name: gruvbox-tmux
   url: https://github.com/YemenOpenSource/gruvbox-tmux
   category: devtools
   tech: Shell
   description: No description provided in the repository.
+  stars: 0
+  license: MIT
 - name: indexed_pages_finder_extension
   url: https://github.com/emran-alhaddad/indexed_pages_finder_extension
   category: devtools
   tech: JavaScript
   description: No description provided in the repository.
+  stars: 1
+  license: MIT
 - name: JsArray
   url: https://github.com/omer73364/JsArray
   category: devtools
   tech: PHP
   description: A PHP implementation of JavaScript Array methods with immutable operations and identical API behavior.
+  stars: 6
+  license: MIT
 - name: konfig
   url: https://github.com/xeriab/konfig
   category: devtools
   tech: PHP
   description: Yet another simple configuration loader library.
+  stars: 5
+  license: MIT
 - name: laragon-linker
   url: https://github.com/YemenOpenSource/laragon-linker
   category: devtools
   tech: PHP
   description: A global composer package that let you link your project with laragon www path as symlink.
+  stars: 6
 - name: Laravel Py
   url: https://github.com/omaralalwi/laravel-py
   category: devtools
   tech: Laravel · Python
   description: A Laravel wrapper for PhpPy that enables controlled execution of Python scripts directly from Laravel applications without requiring a separate API service.
+  stars: 52
+  license: MIT
 - name: Laravel Time Craft
   url: https://github.com/omaralalwi/laravel-time-craft
   category: devtools
   tech: Laravel
   description: Reusable scopes, traits, and helper functions for expressive date- and time-based queries in Laravel applications.
+  stars: 13
+  license: MIT
 - name: Laravel Trash Cleaner
   url: https://github.com/omaralalwi/laravel-trash-cleaner
   category: devtools
   tech: Laravel
   description: A utility for removing debug files, compiled views, and frontend build artifacts, with optional asset rebuilding and scheduled cleanup.
+  stars: 21
+  license: MIT
 - name: linkedin-invites-helper
   url: https://github.com/emran-alhaddad/linkedin-invites-helper
   category: devtools
   tech: JavaScript
   description: No description provided in the repository.
+  stars: 6
 - name: mockserver
   url: https://github.com/hkzak/mockserver
   category: devtools
   description: No description provided in the repository.
+  stars: 2
 - name: MyAwesomeConfig
   url: https://github.com/AhmedSaadi0/MyAwesomeConfig
   category: devtools
   tech: Lua
   description: No description provided in the repository.
+  stars: 49
+  archived: true
 - name: neogruvbox.nvim
   url: https://github.com/Almo7aya/neogruvbox.nvim
   category: devtools
   tech: Lua
   description: ⚙️ Modernized gruvbox color scheme for neovim and its popular plugins.
+  stars: 30
 - name: NibrasShell
   url: https://github.com/AhmedSaadi0/NibrasShell
   category: devtools
   tech: QML
   description: An AI-integrated shell built with QML.
+  stars: 756
+  license: MIT
 - name: nvim
   url: https://github.com/AhmedSaadi0/nvim
   category: devtools
   tech: Lua
   description: Neovim configurations suitable for Django and js.
+  stars: 5
+  license: GPL-3.0
 - name: OnMapper
   url: https://github.com/OND10/OnMapper
   category: devtools
   tech: C#
   description: A package to save time and efforts to map Data Transfer Objects (DTOs) to and from database models for your application.
+  stars: 2
+  license: MIT
 - name: openingh.nvim
   url: https://github.com/Almo7aya/openingh.nvim
   category: devtools
   tech: Lua
   description: Open file or project in GitHub for neovim written in lua.
+  stars: 163
+  license: MIT
 - name: PHP Builders
   url: https://github.com/omaralalwi/php-builders
   category: devtools
   tech: PHP
   description: Practical PHP traits and examples that make Builder-pattern APIs easier to introduce into PHP applications.
+  stars: 15
+  license: MIT
 - name: PhpPy
   url: https://github.com/omaralalwi/php-py
   category: devtools
   tech: PHP · Python
   description: A framework-agnostic PHP package for controlled Python script execution with configurable paths, arguments, environment variables, timeouts, and structured output handling.
+  stars: 21
+  license: MIT
 - name: pyutube
   url: https://github.com/hetari/pyutube
   category: devtools
   tech: Python
   description: A simple user friendly command line tool to download YouTube videos and playlists with fewer steps.
+  stars: 81
+  license: MIT
 - name: qr-canvas
   url: https://github.com/emran-alhaddad/qr-canvas
   category: devtools
   tech: JavaScript
   description: No description provided in the repository.
+  stars: 3
 - name: qrcode-generator
   url: https://github.com/emran-alhaddad/qrcode-generator
   category: devtools
   tech: HTML
   description: '🚀 Need a quick QR code? Try this awesome FREE tool! 🎉 Just drop your URL here: https://emran-alhaddad.github.io/qrcode-generator/ and boom—your QR code is ready in seconds! ⚡💥 No cost, no hassle—just fast & easy! 😎✨.'
+  stars: 4
 - name: qr-design-studio
   url: https://github.com/moatasem-alhilali/qr-design-studio
   category: devtools
   tech: TypeScript
   description: No description provided in the repository.
+  stars: 4
 - name: RestFire
   url: https://github.com/safwa1/RestFire
   category: devtools
   tech: C#
   description: RestFire is a .NET library designed to simplify working with Firebase using its REST API. It provides convenient methods for authentication (signin, signup, deleteAccount) and supports CRUD operations for realtime database collections.
+  stars: 1
 - name: SharpResults
   url: https://github.com/safwa1/SharpResults
   category: devtools
   tech: C#
   description: A lightweight, zero-dependency C# library that implements the Result pattern for more explicit and type-safe error handling. SharpResults helps you avoid exceptions for control flow and makes success/failure states explicit in your code.
+  stars: 6
 - name: uisentinel
   url: https://github.com/mhjabreel/uisentinel
   category: devtools
   tech: TypeScript
   description: Visual validation toolkit for AI coding agents - Give AI the power to see and validate web UIs.
+  stars: 7
+  license: MIT
 - name: UsefulRegex
   url: https://github.com/Waseem-Almoliky/UsefulRegex
   category: devtools
   description: A collection of useful regular expressions, open to community additions.
+  stars: 5
+  license: MIT
 - name: valet-zsh-plugin
   url: https://github.com/A909M/valet-zsh-plugin
   category: devtools
   tech: Shell
   description: Universal Zsh plugin for Laravel Valet (macOS) and Valet Linux with smart completion and cross-platform utilities.
+  stars: 8
+  license: MIT
 - name: yaa
   url: https://github.com/alwashali/yaa
   category: devtools
   tech: Go
   description: yaa - yaml search for humans.
+  stars: 12
 - name: youtube-music-playlist-downloader
   url: https://github.com/A909M/youtube-music-playlist-downloader
   category: devtools
   tech: Python
   description: A Docker-based tool that downloads YouTube Music playlists and converts them to high-quality MP3 files. It preserves metadata (artist, title, album), embeds album artwork, and organizes music by playlist.
+  stars: 12
+  license: MIT
 - name: zed-alpinejs-snippets
   url: https://github.com/A909M/zed-alpinejs-snippets
   category: devtools
   description: Alpine.js Snippets for Zed editor.
+  stars: 5
+  license: MIT
 - name: authentica
   url: https://github.com/YacoubAl-hardari/authentica
   category: security
   tech: PHP
   description: Simplified & Secure User Authentication—Powered by Authentica Empower your business with seamless, secure, and scalable identity verification. Authentica streamlines how you authenticate users - ensuring trust, speed,and flexibility.
+  stars: 0
+  license: NOASSERTION
 - name: bcrypt-cli
   url: https://github.com/muath-ye/bcrypt-cli
   category: security
   tech: JavaScript
   description: A Node.js command-line interface (CLI) application that generates a bcrypt hash of a user-provided password.
+  stars: 10
 - name: Encryption-Decryption-Cryptography-Algorithm
   url: https://github.com/AladdinAlhazmi/Encryption-Decryption-Cryptography-Algorithm
   category: security
   tech: C#
   description: No description provided in the repository.
+  stars: 2
 - name: encryption-number
   url: https://github.com/al-saloul/encryption-number
   category: security
   tech: PHP
   description: This package provides simple encryption and decryption functionality for numeric values. The encryption process involves mapping numbers to random strings, while decryption maps them back to the original numeric values.
+  stars: 18
+  license: MIT
 - name: FieldGuard
   url: https://github.com/sowailem/FieldGuard
   category: security
   tech: PHP
   description: FieldGuard is a Laravel package that enforces field-level security on Eloquent models, allowing fine-grained control over who can view or modify specific attributes—perfect for role-based data protection without altering your core models.
+  stars: 34
+  license: MIT
 - name: jitterg
   url: https://github.com/alwashali/jitterg
   category: security
   tech: Go
   description: Generate C2 dataset with custom jitter.
+  stars: 3
 - name: LogRhythmOne
   url: https://github.com/alwashali/LogRhythmOne
   category: security
   tech: Go
   description: Controle Multiple LogRhythm SIEMs Alert and Cases from a Single API.
+  stars: 8
 - name: NeoAuth.Core
   url: https://github.com/OND10/NeoAuth.Core
   category: security
   tech: C#
   description: No description provided in the repository.
+  stars: 2
 - name: nodejs-express-jwt
   url: https://github.com/al-saloul/nodejs-express-jwt
   category: security
   tech: JavaScript
   description: A simple auth API with Nodejs and express with JWT.
+  stars: 9
 - name: password-generator
   url: https://github.com/muath-ye/password-generator
   category: security
   tech: JavaScript
   description: Generates a strong password yet from your terminal.
+  stars: 7
 - name: role-craft
   url: https://github.com/i74ifa/role-craft
   category: security
   tech: PHP
   description: designed to automate role creation and permission management in Laravel applications by integrating with the spatie/laravel-permission package.
+  stars: 4
+  license: MIT
 - name: RSA-Toolkit
   url: https://github.com/ahmedsalah-tech/RSA-Toolkit
   category: security
   tech: Next.js · FastAPI
   description: A full-stack RSA & hybrid AES-GCM cryptography workbench — generate keys, encrypt text & files (up to 50MB), decrypt, sign, and verify, all from the browser.
+  stars: 0
 - name: asp-classic-push-notifications
   url: https://github.com/YemenOpenSource/asp-classic-push-notifications
   category: bots
   tech: Classic ASP
   description: send firebase push notification from asp classic.
+  stars: 3
 - name: firebasenotificationphp
   url: https://github.com/YacoubAl-hardari/firebasenotificationphp
   category: bots
   tech: PHP
   description: Package For php or laravel To Seding firebase notificationphp.
+  stars: 10
 - name: laravel-dreamsms
   url: https://github.com/YacoubAl-hardari/laravel-dreamsms
   category: bots
   tech: PHP
   description: Laravel DreamSMS Package Documentation Comprehensive reference for every method provided by the dreamsms/laravel-dreamsms package.
+  stars: 5
 - name: msegat-laravel
   url: https://github.com/al-saloul/msegat-laravel
   category: bots
   tech: PHP
   description: This is a Laravel package for Msegat. Its goal is to remove the complexity.
+  stars: 20
 - name: taqnyat
   url: https://github.com/al-saloul/taqnyat
   category: bots
   tech: PHP
   description: This package provides an easy way to integrate Taqnyat SMS into your Laravel application.
+  stars: 14
 - name: WaApi
   url: https://github.com/its4nas/WaApiFrappe
   category: bots
   tech: Frappe · ERPNext
   description: A cost-effective, native WhatsApp integration for Frappe and ERPNext with WaApi.
+  stars: 0
+  license: MIT
 - name: react-three-utils
   url: https://github.com/abdulrahmanal-tayeb/react-three-utils
   category: games
   tech: React
   description: Utilities for 3d website development.
+  stars: 1
 - name: Clean Code Summary
   url: https://github.com/omaralalwi/clean-code-summary
   category: learning
   description: Notes and concise summaries of clean-code books and practices for writing readable, maintainable software.
+  stars: 25
 - name: Developer Vocabulary Cheatsheet
   url: https://github.com/omaralalwi/developer-vocabulary-cheatsheet
   category: learning
   description: A searchable glossary that connects common software-development needs with the precise technical terms and search phrases developers can use to research them.
+  stars: 33
 - name: Payment-Gateways-Saudi-Arabia-Arab-World
   url: https://github.com/anastalal/Payment-Gateways-Saudi-Arabia-Arab-World
   category: learning
   description: A curated list of payment gateways in Saudi Arabia and the Arab world, featuring top providers with descriptions, links, and key details. Perfect for businesses, developers, and entrepreneurs looking for regional payment solutions.
+  stars: 18
 - name: permissions-roles-filament-admin-panel
   url: https://github.com/akramghaleb/permissions-roles-filament-admin-panel
   category: learning
   tech: PHP
   description: This is build through the course of laravel filament.
+  stars: 8
+  license: MIT
 - name: SOLID Principles Summary
   url: https://github.com/omaralalwi/solid-principles-summary
   category: learning
   description: A practical introduction to the five SOLID design principles, with explanations and code examples focused on maintainable and flexible software.
+  stars: 7
 - name: tutorials
   url: https://github.com/YemenOpenSource/tutorials
   category: learning
   description: A collection of technical lessons and educational guides.
+  stars: 2
 - name: insraf
   url: https://github.com/theEngMansour/insraf
   category: other
   tech: JavaScript
   description: No description provided in the repository.
+  stars: 0
 - name: yos-app
   url: https://github.com/YacoubAl-hardari/yos-app
   category: other
   tech: TypeScript
   description: No description provided in the repository.
+  stars: 2

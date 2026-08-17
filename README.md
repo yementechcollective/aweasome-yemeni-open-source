@@ -83,7 +83,7 @@ repository**, so credit stays with its author, and descriptions are taken from t
 > [!NOTE]
 > Where a project is mirrored as a fork by the independent [Yemen Open Source](https://github.com/YemenOpenSource)
 > organization, the link points to the upstream original rather than the mirror. Metadata is a
-> snapshot taken from GitHub on **13 August 2026**. A ⚠️ marks a repository its maintainer has archived.
+> snapshot taken from GitHub on **17 August 2026**. A ⚠️ marks a repository its maintainer has archived.
 
 ### Browse by Category
 
@@ -183,7 +183,7 @@ repository**, so credit stays with its author, and descriptions are taken from t
 |---|---|---|
 | [blade-realtime-input](https://github.com/YemenOpenSource/blade-realtime-input) | Blade | Enjoy realtime input validation by passing your rules in your input itself. |
 | [Blazor-Components](https://github.com/AladdinAlhazmi/Blazor-Components) | HTML | No description provided in the repository. |
-| [filament3-timepicker](https://github.com/husam-tariq/filament3-timepicker) | JavaScript | No description provided in the repository. |
+| [filament3-timepicker ⚠️](https://github.com/husam-tariq/filament3-timepicker) | JavaScript | No description provided in the repository. |
 | [filament-announcement](https://github.com/HasanYagout/filament-announcement) | PHP | No description provided in the repository. |
 | [filament-audio-video-player](https://github.com/aymanalhattami/filament-audio-video-player) | PHP | No description provided in the repository. |
 | [filament-certificate-generator](https://github.com/husam-tariq/filament-certificate-generator) | JavaScript | No description provided in the repository. |
@@ -202,7 +202,7 @@ repository**, so credit stays with its author, and descriptions are taken from t
 | [hero-icons](https://github.com/YemenOpenSource/hero-icons) | PHP | Generate Hero Icons names as PHP constances from Laravel UI kit vendor svg files. |
 | [kunafa-dashboard-vue](https://github.com/kunafaPlus/kunafa-dashboard-vue) | Vue | A feature-rich Modern Vue.js 3 & TailwindCSS & Vite Admin dashboard, with Real API Demo Data and multi-language support and full RTL/LTR bidirectional layout capabilities. |
 | [laravel-nuxt-template](https://github.com/akramghaleb/laravel-nuxt-template) | PHP | This repository provides a starter template for building web applications using Laravel as the backend and Nuxt.js as the frontend framework. |
-| [laravel-startkit](https://github.com/omaralalwi/laravel-startkit) | PHP | Laravel Admin Dashboard, Admin Template with Frontend Template, for scalable Laravel projects. It is to save your time when You start with new scalable Laravel projects with many features Bootstrap, cooreui, infyom admin Generator, roles and permissions, translatable models, spatie media and much more. |
+| [laravel-startkit ⚠️](https://github.com/omaralalwi/laravel-startkit) | PHP | Laravel Admin Dashboard, Admin Template with Frontend Template, for scalable Laravel projects. It is to save your time when You start with new scalable Laravel projects with many features Bootstrap, cooreui, infyom admin Generator, roles and permissions, translatable models, spatie media and much more. |
 | [mdi-selector](https://github.com/OsamaAlmamri/mdi-selector) | JavaScript | No description provided in the repository. |
 | [mesh-magic](https://github.com/hetari/mesh-magic) | Vue | No description provided in the repository. |
 | [nuxt-laravelapi-starter-kit](https://github.com/sumer5020/nuxt-laravelapi-starter-kit) | PHP | Ready to go Laravel web api and nuxt3 template 🔥. |
@@ -216,7 +216,7 @@ repository**, so credit stays with its author, and descriptions are taken from t
 | [simple-project](https://github.com/YemenOpenSource/simple-project) | PHP | This template should help get you started developing with laravel 9 + Vue 3 in Vite + Tailwind. |
 | [smart-bank-UI](https://github.com/YemenOpenSource/smart-bank-UI) | — | No description provided in the repository. |
 | [todo-app](https://github.com/akramghaleb/todo-app) | JavaScript | simple Todo App using laravel + vue + tailwind. |
-| [unplugin-remix-router](https://github.com/ws-rush/unplugin-remix-router) | TypeScript | This plugin streamlines React Router's routing setup with automatic file-based routing, requiring React Router 6.4+. |
+| [unplugin-remix-router ⚠️](https://github.com/ws-rush/unplugin-remix-router) | TypeScript | This plugin streamlines React Router's routing setup with automatic file-based routing, requiring React Router 6.4+. |
 | [visi](https://github.com/sfwnisme/visi) | TypeScript | React package inspired by SolidJS's powerful and efficient conditional rendering components. |
 | [vue-and-react-library-template](https://github.com/hetari/vue-and-react-library-template) | TypeScript | A template for building shared libraries in both Vue and React. This template uses Vite for fast builds and includes TypeScript support, with easy configuration for single or multiple framework targets. |
 
@@ -369,7 +369,7 @@ repository**, so credit stays with its author, and descriptions are taken from t
 | [Laravel Trash Cleaner](https://github.com/omaralalwi/laravel-trash-cleaner) | Laravel | A utility for removing debug files, compiled views, and frontend build artifacts, with optional asset rebuilding and scheduled cleanup. |
 | [linkedin-invites-helper](https://github.com/emran-alhaddad/linkedin-invites-helper) | JavaScript | No description provided in the repository. |
 | [mockserver](https://github.com/hkzak/mockserver) | — | No description provided in the repository. |
-| [MyAwesomeConfig](https://github.com/AhmedSaadi0/MyAwesomeConfig) | Lua | No description provided in the repository. |
+| [MyAwesomeConfig ⚠️](https://github.com/AhmedSaadi0/MyAwesomeConfig) | Lua | No description provided in the repository. |
 | [neogruvbox.nvim](https://github.com/Almo7aya/neogruvbox.nvim) | Lua | ⚙️ Modernized gruvbox color scheme for neovim and its popular plugins. |
 | [NibrasShell](https://github.com/AhmedSaadi0/NibrasShell) | QML | An AI-integrated shell built with QML. |
 | [nvim](https://github.com/AhmedSaadi0/nvim) | Lua | Neovim configurations suitable for Django and js. |
