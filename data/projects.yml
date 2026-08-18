@@ -1220,3 +1220,8 @@
   category: other
   tech: TypeScript
   description: No description provided in the repository.
+- name: ShipNovo
+  url: https://github.com/AlfakirDev/shipnovo
+  category: web
+  tech: 'Laravel · React · Next.js'
+  description: A logistics and shipment management platform for managing shipments and logistics operations.
